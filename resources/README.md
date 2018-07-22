@@ -9,10 +9,10 @@
   - [Tools](https://github.com/dkorobtsov/automation-arsenal/tree/master/tools#table-of-contents)
   - [Cheat Sheets](#cheat-sheets)
   - [Reading](#reading)
-   - [General principles](#general-principles)
-   - [Practical advices](#practical-advices)
-   - [Must Read Books](#must-read-books)
-   - [Useful Read](#useful-read)
+    - [General principles](#general-principles)
+    - [Practical advices](#practical-advices)
+    - [Must Read Books](#must-read-books)
+    - [Useful Read](#useful-read)
   - [Events](#events)
 
 ---
