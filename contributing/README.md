@@ -22,7 +22,7 @@
 * Contains no spelling or grammar errors.
 * PR has useful title, description contains link and explanation why it should be included.
 
-** Contributions are welcome! **
+**Contributions are welcome!**
 
 &nbsp;
 

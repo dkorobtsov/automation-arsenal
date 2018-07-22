@@ -311,7 +311,6 @@
 &nbsp;
 
 **Interested in contributing?**
-** Interested in contributing? **
 
 Contributions are welcome! Read [contribution guidelines](https://github.com/dkorobtsov/automation-arsenal/tree/master/contributing#contribution-guidelines).
 
