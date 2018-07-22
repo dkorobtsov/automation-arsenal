@@ -1,13 +1,12 @@
 # Automation Arsenal
 
-**What is the purpose of this list?** To gather in one place up-to-date list of popular Java and Kotlin frameworks, libraries and tools directly (on indirectly) related to automating software testing, quality assurance and adjacent processes. Basically speaking everything related to [engineering productivity](https://saucelabs.com/blog/qa-is-not-enough-you-need-to-engineer-productivity).
+**What is the purpose of this list?** To gather in one place up-to-date list of popular Java and Kotlin frameworks, libraries and tools directly (on indirectly) related to software testing, quality assurance and adjacent processes automation. Basically speaking everything related to [engineering productivity](https://saucelabs.com/blog/qa-is-not-enough-you-need-to-engineer-productivity).
 
-**Why?** First of all - to have reference to all commonly used modern tools (and not so obvious things that can be handy or just good to know) in one place. Because it usually takes a little bit more then general Selenium knowledge to build reliable and flexible automated testing infrastructure. Another reason was to provide some guidance to those who are at the beginning of their journey - so categories are as focused as possible, keeping dead and 'vintage' solutions out of scope. Practice shows that all 'awesome' lists on this topic include every single existing library around making it almost impossible to choose most effective solution.
-
+**Why?** First of all - to have reference to all commonly used modern tools (and not so obvious things that can be handy or just good to know) in one place. Because it usually takes a little bit more then general Selenium knowledge to build reliable and flexible automated testing infrastructure. Another reason was to provide some guidance to those who are at the beginning of their journey - so categories are as focused as possible, keeping dead and 'vintage' libraries out of scope.
 
 <!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:0 orderedList:0 -->
 
-- [Automation Arsenal](#automation-arsenal)
+- [Table of Contents](#automation-arsenal)
 	- [Java](#java)
 		- [AOP](#aop)
 		- [Alexa](#alexa)
@@ -178,12 +177,12 @@
 * [Java Design Patterns](https://github.com/iluwatar/java-design-patterns) - Extensive collection of Design Pattern examples.
 
 ### HTML
-* [Jsoup](https://github.com/jhy/jsoup) - Java library for working with real-world HTML. It provides a very convenient API for extracting and manipulating data. Extremely useful library. Works directly with html, without need of WebDriver. In certain cases pairs really well with WebDriver based library, greatly speeding up test execution - especially when it's needed to read huge amount of data from the UI.
+* [Jsoup](https://github.com/jhy/jsoup) - Java library for working with real-world HTML. It provides a very convenient API for extracting and manipulating data. Extremely useful. Works directly with html, without need of WebDriver. In certain cases pairs really well with WebDriver based library, greatly speeding up test execution - especially when it's needed to read huge amount of data from the UI.
 
 ### HTTP
 * [OkHttp](https://github.com/square/okhttp) - Popular HTTP client by [Square](http://square.github.io/).
 * [Parallec](https://github.com/eBay/parallec) - Lightning fast Parallel Async HTTP/SSH/TCP/UDP/Ping Client Java Library. Allows requesting thousands of remote endpoints, collect results and forward them elsewhere.
-* [LoggingInterceptor](https://github.com/dkorobtsov/LoggingInterceptor) My own version of popular Android [library](https://github.com/ihsanbal/LoggingInterceptor) - basically OkHttp interceptor, with pretty http requests/responses output to console. Useful when writing API tests or developing REST client.
+* [LoggingInterceptor](https://github.com/dkorobtsov/LoggingInterceptor) My own version of popular Android [library](https://github.com/ihsanbal/LoggingInterceptor) adapted for use with popular Java loggers - basically OkHttp interceptor, with pretty  requests/responses output to console. Useful when writing API tests or developing REST client.
 * [Retrofit](https://github.com/square/retrofit) - Type-safe HTTP client for Android and Java by Square. Working with REST API's made easy and simple.
 * [Feign](https://github.com/OpenFeign/feign) - Another popular HTTP client library. Quite similar to Retrofit.
 
@@ -217,7 +216,7 @@
 ### Mail
 * [jcabi-email](https://github.com/jcabi/jcabi-email) - Email Sending Java SDK.
 * [Greenmail](https://github.com/greenmail-mail-test/greenmail) - Mail Testing Library.
-* [Gmail API Client Library for Java](https://developers.google.com/api-client-library/java/apis/gmail/v1) - Gmail itself can be pretty useful for testing e-mails. Especially combined with + [trick](https://www.thewindowsclub.com/gmail-address-tricks).
+* [Gmail API Client Library for Java](https://developers.google.com/api-client-library/java/apis/gmail/v1) Gmail itself can be pretty useful for testing e-mails. Especially combined with + [trick](https://www.thewindowsclub.com/gmail-address-tricks).
 
 ### Mocks
 * [JMockit](https://github.com/jmockit/jmockit1) - Library for creating test mocks. Not so famous as Mockito, but definitely just as good. Just a matter of taste which one to choose.
@@ -477,7 +476,7 @@
 * [Recordit](http://recordit.co/) - Nice little tool for recording and sharing screencasts.
 
 ### Testing
-* [HAR Viewer](*%20http://www.softwareishard.com/blog/har-viewer/) - Online tool for HTTP Archive files visualization
+* [HAR Viewer](http://www.softwareishard.com/blog/har-viewer/) - Online tool for HTTP Archive files visualization
 * [XPath Generation](http://xpathify.herokuapp.com/) - Small web utility for XPath generation.
 * [UI Testing Playground](https://the-internet.herokuapp.com/) - Good for practicing UI automation techniques.
 
@@ -508,10 +507,15 @@
 
 ### General principles
 * [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself) - Don't repeat yourself. Say no to code duplication.
-* [YAGNI](https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it) - You aren't gonna need it. Implement only features you actually need. Delete all code that is not in use.
+* [YAGNI](https://testing.googleblog.com/2017/08/code-health-eliminate-yagni-smells.html) - You aren't gonna need it. Implement only features you actually need. Delete all code that is not in use.
 * [KISS](https://people.apache.org/~fhanik/kiss.html) - Keep it simple, Stupid. Keep code as simple as possible.
 * [SOLID](https://en.wikipedia.org/wiki/SOLID) - Five design principles to make code more understandable, flexible and maintainable.
+
+### Practical advices
+* [Fluent Interface](https://www.martinfowler.com/bliki/FluentInterface.html) - Idea of Fluent Interfaces explained. Consider it as one of the building blocks for building internal testing DSL.
+* [Reduce Nesting](https://testing.googleblog.com/2017/06/code-health-reduce-nesting-reduce.html) - Good example how to reduce nesting and improve readability.
 * [Tell Don't Ask Principle](https://martinfowler.com/bliki/TellDontAsk.html) - Pretty useful article from Martin Fowler. Could be really helpful when designing Page Object Model.
+* [To Comment or Not to Comment?](https://testing.googleblog.com/2017/07/code-health-to-comment-or-not-to-comment.html) - Article about comments in code.
 
 ### Must Read Books
 * [Clean Code](https://www.goodreads.com/book/show/3735293-clean-code) by Uncle Bob. Must read. Period. Badly written code is a total mess. At certain point maintenance will consume all the time you have.
@@ -520,11 +524,10 @@
 ### Useful Read
 * [Android Testing Guide](https://github.com/ravidsrk/android-testing-guide) - Worth reading, pretty good guide.
 * [Google Testing Blog](https://testing.googleblog.com/) - Google Testing Blog. Quite a few updates recently, but in general lots of useful ideas. In general makes also sense to read "[How Google Tests Software](https://books.google.com/books/about/How_Google_Tests_Software.html?id=vHlTOVTKHeUC)" - some ideas are really useful.
-* [Fluent Interface](https://www.martinfowler.com/bliki/FluentInterface.html) - Idea of Fluent Interfaces explained. Consider it as one of the building blocks for building internal testing DSL.
 * [Java 8 Tutorial](https://github.com/winterbe/java8-tutorial) - Pretty good guide for Java 8 features.
 * [Software Testing Anti-patterns](http://blog.codepipes.com/testing/software-testing-antipatterns.html) - Just good article. Makes sense to read.
 * [Test Smells](http://xunitpatterns.com/Test%20Smells.html) - Parts of the book xUnit Test Patterns. Most of the presentations explaining bad test design are just an illustration of this list.
-* [Yegor' Blog](https://www.yegor256.com/) - Always a good read.
+* [Yegor's Blog](https://www.yegor256.com/) - Always a good read.
 
 
 ## Events
