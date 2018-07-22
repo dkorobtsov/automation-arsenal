@@ -1,5 +1,6 @@
 ## [Table of Contents](#table-of-contents)
 <!-- TOC depthFrom:2 depthTo:6 withLinks:1 updateOnSave:0 orderedList:0 -->
+- [Automation Arsenal](https://github.com/dkorobtsov/automation-arsenal#table-of-contents)
 - [Java Libraries](#java-libraries)
   - [AOP](#aop)
   - [Alexa](#alexa)
@@ -42,7 +43,7 @@
   - [xUnit Framework](#xunit-framework)
   - [WebDriver](#webdriver)
   - [XML](#xml)
-- [Kotlin Libraries](https://github.com/dkorobtsov/automation-arsenal/tree/master/kotlin)
+- [Kotlin Libraries](https://github.com/dkorobtsov/automation-arsenal/tree/master/kotlin#table-of-contents)
 - [Tools](https://github.com/dkorobtsov/automation-arsenal#tools)
 - [Cheat Sheets](https://github.com/dkorobtsov/automation-arsenal#cheat-sheets)
 - [Reading](https://github.com/dkorobtsov/automation-arsenal#reading)
