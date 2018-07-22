@@ -14,37 +14,39 @@
 
 ---
 
-## [Table of Contents](#table-of-contents)
-<!-- TOC depthFrom:2 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
-	- [Java Libraries](#java)
-	- [Kotlin Libraries](#kotlin)
-	- [Tools](#tools)
-		- [API](#api)
-		- [Build Tools](#build-tools)
-		- [Artifacts Handling](#artifacts-handling)
-		- [CI / CD](#ci-cd)
-		- [Code Coverage](#code-coverage)
-		- [Code Quality](#code-quality)
-		- [Console](#console)
-		- [Chrome extensions](#chrome-extensions)
-		- [Containers](#containers)
-		- [Git](#git)
-		- [Goodies](#goodies)
-		- [IDE](#ide)
-		- [IntelliJ Plugins](#intellij-plugins)
-		- [JSON](#json)
-		- [Logging](#logging)
-		- [Mobile](#mobile)
-		- [Performance Testing](#performance-testing)
-		- [Remote Management](#remote-management)
-		- [Team Collaboration](#team-collaboration)
-		- [Testing](#testing)
-	- [Cheat Sheets](#cheat-sheets)
-	- [Reading](#reading)
-		- [General principles](#general-principles)
-		- [Must Read Books](#must-read-books)
-		- [Useful Read](#useful-read)
-	- [Events](#events)
+# [Table of Contents](#table-of-contents)
+- [Java Libraries](https://github.com/dkorobtsov/automation-arsenal/blob/master/java.md)
+- [Kotlin Libraries](https://github.com/dkorobtsov/automation-arsenal/blob/master/kotlin.md)
+<!-- TOC depthFrom:2 depthTo:6 withLinks:1 updateOnSave:0 orderedList:0 -->
+- [Tools](#tools)
+	- [API](#api)
+	- [Build Tools](#build-tools)
+	- [Artifacts Handling](#artifacts-handling)
+	- [CI /](#ci-)
+	- [Code Coverage](#code-coverage)
+	- [Code Quality](#code-quality)
+	- [Console](#console)
+	- [Chrome extensions](#chrome-extensions)
+	- [Containers](#containers)
+	- [Git](#git)
+	- [Goodies](#goodies)
+	- [IDE](#ide)
+	- [IntelliJ Plugins](#intellij-plugins)
+	- [JSON](#json)
+	- [Logging](#logging)
+	- [Mobile](#mobile)
+	- [Performance Testing](#performance-testing)
+	- [Remote Management](#remote-management)
+	- [Team](#team)
+	- [Testing](#testing)
+- [Cheat Sheets](#cheat-sheets)
+- [Reading](#reading)
+	- [General principles](#general-principles)
+	- [Practical advices](#practical-advices)
+	- [Must Read Books](#must-read-books)
+	- [Useful Read](#useful-read)
+- [Events](#events)
+
 <!-- /TOC -->
 
 ## Tools
@@ -145,7 +147,7 @@
 * [Statistic](https://plugins.jetbrains.com/plugin/4509-statistic) - Shows project statistic.
 * [String Manipulation](https://github.com/krasa/StringManipulation) - Adds String manipulation options to right click menu
 
-###
+### JSON
 [&uarr;](#table-of-contents)
 * [Json Schema 2 Pojo](https://github.com/joelittlejohn/jsonschema2pojo) - Extremely useful tool for quickly consuming an API. Just copy and [paste](http://www.jsonschema2pojo.org/) response, get Java class, attach convertor (like Moshi for example) and get an object on a next Retrofit call.
 
