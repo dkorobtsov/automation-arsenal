@@ -16,8 +16,8 @@
 
 # [Table of Contents](#table-of-contents)
 - [Automation Arsenal](#table-of-contents)
-	- [Java Libraries](https://github.com/dkorobtsov/automation-arsenal/tree/master/java)
-	- [Kotlin Libraries](https://github.com/dkorobtsov/automation-arsenal/tree/master/kotlin)
+	- [Java Libraries](https://github.com/dkorobtsov/automation-arsenal/tree/master/java#table-of-contents)
+	- [Kotlin Libraries](https://github.com/dkorobtsov/automation-arsenal/tree/master/kotlin#table-of-contents)
 	- [Tools](#tools)
 		- [API](#api)
 		- [Build Tools](#build-tools)
