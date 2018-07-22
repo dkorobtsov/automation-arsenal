@@ -22,7 +22,7 @@
 		- [API](#api)
 		- [Build Tools](#build-tools)
 		- [Artifacts Handling](#artifacts-handling)
-		- [CI /](#ci-)
+		- [CI / CD](#ci-cd)
 		- [Code Coverage](#code-coverage)
 		- [Code Quality](#code-quality)
 		- [Console](#console)
@@ -69,7 +69,7 @@
 * [Gradle, Please](https://gradleplease.appspot.com/#selenide) - Nice little tool to search for Gradle dependencies.
 * [Maven Central](http://search.maven.org/) - Search engine for Maven Central repository.
 
-### CI /
+### CI / CD
 [&uarr;](#table-of-contents)
 * [Ansible](https://github.com/ansible/ansible) IT automation system. Handles configuration-management, application deployment, cloud provisioning, ad-hoc task-execution, and multinode orchestration.
 * [Ansible Semaphore](https://github.com/ansible-semaphore/semaphore) - Open source Web UI solution for launching Ansible tasks.
