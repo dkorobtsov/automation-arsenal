@@ -42,11 +42,11 @@
   - [xUnit Framework](#xunit-framework)
   - [WebDriver](#webdriver)
   - [XML](#xml)
-- [Kotlin Libraries](https://github.com/dkorobtsov/automation-arsenal/blob/master/kotlin.md)
-- [Tools](#tools)
-- [Cheat Sheets](#cheat-sheets)
-- [Reading](#reading)
-- [Events](#events)
+- [Kotlin Libraries](https://github.com/dkorobtsov/automation-arsenal/tree/master/kotlin)
+- [Tools](https://github.com/dkorobtsov/automation-arsenal#tools)
+- [Cheat Sheets](https://github.com/dkorobtsov/automation-arsenal#cheat-sheets)
+- [Reading](https://github.com/dkorobtsov/automation-arsenal#reading)
+- [Events](https://github.com/dkorobtsov/automation-arsenal#events)
 <!-- /TOC -->
 
 ## Java Libraries

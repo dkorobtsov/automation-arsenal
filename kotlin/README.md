@@ -1,5 +1,5 @@
 ## [Table of Contents](#table-of-contents)
-- [Java Libraries](https://github.com/dkorobtsov/automation-arsenal/blob/master/java.md)
+- [Java Libraries](https://github.com/dkorobtsov/automation-arsenal/tree/master/java)
 <!-- TOC depthFrom:2 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 - [Kotlin Libraries](#kotlin-libraries)
 	- [Assertions](#assertions)
@@ -21,10 +21,10 @@
 	- [Reactive](#reactive)
 	- [HowTo](#howto)
 	- [WebDriver](#webdriver)
-- [Tools](#tools)  
-- [Cheat Sheets](#cheat-sheets)
-- [Reading](#reading)
-- [Events](#events)
+- [Tools](https://github.com/dkorobtsov/automation-arsenal#tools)
+- [Cheat Sheets](https://github.com/dkorobtsov/automation-arsenal#cheat-sheets)
+- [Reading](https://github.com/dkorobtsov/automation-arsenal#reading)
+- [Events](https://github.com/dkorobtsov/automation-arsenal#events)
 <!-- /TOC -->
 
 ## Kotlin Libraries

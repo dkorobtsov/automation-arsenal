@@ -15,9 +15,8 @@
 ---
 
 # [Table of Contents](#table-of-contents)
-- [Java Libraries](https://github.com/dkorobtsov/automation-arsenal/blob/master/java.md)
-- [Kotlin Libraries](https://github.com/dkorobtsov/automation-arsenal/blob/master/kotlin.md)
-<!-- TOC depthFrom:2 depthTo:6 withLinks:1 updateOnSave:0 orderedList:0 -->
+- [Java Libraries](https://github.com/dkorobtsov/automation-arsenal/tree/master/java)
+- [Kotlin Libraries](https://github.com/dkorobtsov/automation-arsenal/tree/master/kotlin)
 - [Tools](#tools)
 	- [API](#api)
 	- [Build Tools](#build-tools)
@@ -47,7 +46,7 @@
 	- [Useful Read](#useful-read)
 - [Events](#events)
 
-<!-- /TOC -->
+---
 
 ## Tools
 
@@ -188,6 +187,8 @@
 * [XPath Generation](http://xpathify.herokuapp.com/) - Small web utility for XPath generation.
 * [UI Testing Playground](https://the-internet.herokuapp.com/) - Good for practicing UI automation techniques.
 
+---
+
 ## Cheat Sheets
 [&uarr;](#table-of-contents)
 * [Android Shell Commands](https://github.com/cesards/AndroidShell) - Android shell commands cheat sheet.
@@ -210,6 +211,8 @@
 * [RxJava](http://files.zeroturnaround.com/pdf/zt-rxjava-cheat-sheet.pdf) - RxJava cheat sheet.
 * [SQL](http://files.zeroturnaround.com/pdf/zt_sql_cheat_sheet.pdf) - SQL cheat Sheet.
 * [Vim Visual Cheat Sheet](http://people.csail.mit.edu/vgod/vim/vim-cheat-sheet-en.png) - It's good to know how to exit vim without referring to [StackOverflow](https://stackoverflow.com/questions/11828270/how-to-exit-the-vim-editor).
+
+---
 
 ## Reading
 
