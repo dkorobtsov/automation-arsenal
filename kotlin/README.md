@@ -1,18 +1,10 @@
 # Automation Arsenal - Kotlin Libraries
 
 ---
-**Find this list helpful? Show some support:**
->![GitHub followers](https://img.shields.io/github/followers/dkorobtsov.svg?style=social&label=Follow)
-[![GitHub forks](https://img.shields.io/github/forks/dkorobtsov/automation-arsenal.svg?style=social&label=Fork)](https://github.com/dkorobtsov/automation-arsenal/fork)
-[![GitHub stars](https://img.shields.io/github/stars/dkorobtsov/automation-arsenal.svg?style=social&label=Star)](https://github.com/dkorobtsov/automation-arsenal)
-[![Twitter Follow](https://img.shields.io/twitter/follow/dkorobtsov.svg?style=social&label=Follow)](https://twitter.com/dkorobtsov)
-
----
 
 ## [Table of Contents](#table-of-contents)
 - [Automation Arsenal](https://github.com/dkorobtsov/automation-arsenal#table-of-contents)
   - [Java Libraries](https://github.com/dkorobtsov/automation-arsenal/tree/master/java#table-of-contents)
-  <!-- TOC depthFrom:2 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
   - [Kotlin Libraries](#kotlin-libraries)
   	- [Assertions](#assertions)
   	- [Build](#build)
@@ -33,11 +25,12 @@
   	- [Reactive](#reactive)
   	- [HowTo](#howto)
   	- [WebDriver](#webdriver)
-  - [Tools](https://github.com/dkorobtsov/automation-arsenal#tools)
-  - [Cheat Sheets](https://github.com/dkorobtsov/automation-arsenal#cheat-sheets)
-  - [Reading](https://github.com/dkorobtsov/automation-arsenal#reading)
-  - [Events](https://github.com/dkorobtsov/automation-arsenal#events)
-<!-- /TOC -->
+  - [Tools](https://github.com/dkorobtsov/automation-arsenal/tree/master/tools#table-of-contents)
+  - [Cheat Sheets](https://github.com/dkorobtsov/automation-arsenal/tree/master/resources#cheat-sheets)
+  - [Reading](https://github.com/dkorobtsov/automation-arsenal/tree/master/resources#reading)
+  - [Events](https://github.com/dkorobtsov/automation-arsenal/tree/master/resources#events)
+
+---
 
 ## Kotlin Libraries
 ### Assertions
@@ -121,6 +114,22 @@
 [&uarr;](#table-of-contents)
 * [Kirk](https://github.com/SergeyPirogov/kirk) - Selenium wrapper written in Kotlin.
 
+&nbsp;
+
 ---
-## License
+
+**Find this list helpful? Show some support:**
+>![GitHub followers](https://img.shields.io/github/followers/dkorobtsov.svg?style=social&label=Follow)
+[![GitHub forks](https://img.shields.io/github/forks/dkorobtsov/automation-arsenal.svg?style=social&label=Fork)](https://github.com/dkorobtsov/automation-arsenal/fork)
+[![GitHub stars](https://img.shields.io/github/stars/dkorobtsov/automation-arsenal.svg?style=social&label=Star)](https://github.com/dkorobtsov/automation-arsenal)
+[![Twitter Follow](https://img.shields.io/twitter/follow/dkorobtsov.svg?style=social&label=Follow)](https://twitter.com/dkorobtsov)
+
+&nbsp;
+
+** Interested in contributing? **
+
+Contributions are welcome! Read [contribution guidelines](https://github.com/dkorobtsov/automation-arsenal/tree/master/contributing#contribution-guidelines).
+
+### License
+
 [![CC-BY-SA-4.0](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-sa.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
