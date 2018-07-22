@@ -1,13 +1,12 @@
 # Automation Arsenal
----
+
 **What is the purpose of this list?**
 > To gather in one place up-to-date list of popular **Java** and **Kotlin** frameworks, libraries and tools directly (on indirectly) related to software testing, quality assurance and adjacent processes automation. Basically speaking everything related to [engineering productivity](https://saucelabs.com/blog/qa-is-not-enough-you-need-to-engineer-productivity).
 
 **Why?**
 > First of all - to have reference to all commonly used modern tools (and not so obvious things that can be handy or just good to know) in one place. Because it usually takes a little bit more then general Selenium knowledge to build reliable and flexible automated testing infrastructure. Another reason was to provide some guidance to those who are at the beginning of their journey - so categories are as focused as possible, keeping dead and 'vintage' libraries out of scope.
 
----
-&nbsp;
+
 ### [Table of Contents](#table-of-contents)
 - [Automation Arsenal](#table-of-contents)
 	- [Java Libraries](https://github.com/dkorobtsov/automation-arsenal/tree/master/java#table-of-contents)
@@ -26,8 +25,6 @@
 [![GitHub forks](https://img.shields.io/github/forks/dkorobtsov/automation-arsenal.svg?style=social&label=Fork)](https://github.com/dkorobtsov/automation-arsenal/fork)
 [![GitHub stars](https://img.shields.io/github/stars/dkorobtsov/automation-arsenal.svg?style=social&label=Star)](https://github.com/dkorobtsov/automation-arsenal)
 [![Twitter Follow](https://img.shields.io/twitter/follow/dkorobtsov.svg?style=social&label=Follow)](https://twitter.com/dkorobtsov)
-
-&nbsp;
 
 ** Interested in contributing? **
 
