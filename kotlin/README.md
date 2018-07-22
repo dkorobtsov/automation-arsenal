@@ -1,4 +1,4 @@
-# Automation Arsenal - Java Libraries
+# Automation Arsenal - Kotlin Libraries
 
 ---
 **Find this list helpful? Show some support:**
