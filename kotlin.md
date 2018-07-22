@@ -1,0 +1,110 @@
+## [Table of Contents](#table-of-contents)
+- [Java Libraries](https://github.com/dkorobtsov/automation-arsenal/blob/master/java.md)
+<!-- TOC depthFrom:2 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
+- [Kotlin Libraries](#kotlin-libraries)
+	- [Assertions](#assertions)
+	- [Build](#build)
+	- [Code Quality](#code-quality)
+	- [Configuration and Properties](#configuration-and-properties)
+	- [CLI](#cli)
+	- [Dependency Injection](#dependency-injection)
+	- [Framework](#framework)
+	- [JSON](#json)
+	- [HTTP](#http)
+	- [Language extensions](#language-extensions)
+	- [Mocking](#mocking)
+	- [Mobile](#mobile)
+	- [Logging](#logging)
+	- [Scripting](#scripting)
+	- [Source Code Utilities](#source-code-utilities)
+	- [SQL](#sql)
+	- [Reactive](#reactive)
+	- [HowTo](#howto)
+	- [WebDriver](#webdriver)
+- [Tools](#tools)  
+- [Cheat Sheets](#cheat-sheets)
+- [Reading](#reading)
+- [Events](#events)
+<!-- /TOC -->
+
+## Kotlin Libraries
+### Assertions
+[&uarr;](#table-of-contents)
+* [Kluent](https://github.com/MarkusAmshove/Kluent) - Fluent Assertion-Library for Kotlin.
+* [Assertk](https://github.com/willowtreeapps/assertk) - Yet another Kotlin assertions inspired by AssertJ.
+* [Hamkrest](https://github.com/npryce/hamkrest) - Hamcrest remake for Kotlin.
+
+### Build
+[&uarr;](#table-of-contents)
+* [Kotlin DSL](https://github.com/gradle/kotlin-dsl) - Kotlin language support for Gradle build scripts. Looks promising, but at the moment for evaluation purposes only.
+
+### Code Quality
+[&uarr;](#table-of-contents)
+* [Detekt](https://github.com/arturbosch/detekt) - Static code analysis for Kotlin.
+
+### Configuration and Properties
+[&uarr;](#table-of-contents)
+* [Properlty](https://github.com/ufoscout/properlty) - Simple Kotlin and Java configuration library. Looks really convenient.
+
+### CLI
+[&uarr;](#table-of-contents)
+* [Clikt](https://github.com/ajalt/clikt) - Library for easy creation of CLI based applications.
+
+### Dependency Injection
+[&uarr;](#table-of-contents)
+* [Koin](https://github.com/InsertKoinIO/koin) - LightWeight Dependency Injection framework. Still not sure if it makes sense to use DI in test automation if you are not into unit testing, but this library sure worth mentioning.
+
+### Framework
+[&uarr;](#table-of-contents)
+* [Kotlintest](https://github.com/kotlintest/kotlintest) - Flexible Kotlin testing framework.
+
+### JSON
+[&uarr;](#table-of-contents)
+* [Kotshi](https://github.com/ansman/kotshi) - An annotations processor that generates Moshi adapters from immutable Kotlin data classes.
+
+### HTTP
+[&uarr;](#table-of-contents)
+* [Fuel](https://github.com/kittinunf/Fuel) - Advertised as the easiest HTTP networking library for Kotlin/Android. Frankly speaking tried in scope of one project. Tastes good, but not that good to switch from Retrofit. Still, once again - just a matter of taste.
+
+### Language extensions
+[&uarr;](#table-of-contents)
+* [Arrow](https://github.com/arrow-kt/arrow) - Functional companion to Kotlin's Standard Library.
+
+### Mocking
+[&uarr;](#table-of-contents)
+* [Mockk](https://github.com/mockk/mockk) - Mocking library for unit tests.
+* [Mockito Kotlin](https://github.com/nhaarman/mockito-kotlin) - Mockito adaptation for Kotlin.
+* [Spark Kotlin](https://github.com/perwendel/spark-kotlin) - A Spark DSL in Kotlin, allows easy and fast web servers creation.
+
+### Mobile
+[&uarr;](#table-of-contents)
+* [Kakao](https://github.com/agoda-com/Kakao) - Nice and simple DSL for Espresso in Kotlin. Allows writing Espresso tests that does not look ugly and much easier to maintain.
+
+### Logging
+[&uarr;](#table-of-contents)
+* [OkLog](https://github.com/simonpercic/OkLog) - Yet another OkHttp traffic logging interceptor. Intercepts requests and generates link to view response details in browser. Looks awesome if you don't mind leaving IDE.
+* [Kotlin Logging](https://github.com/MicroUtils/kotlin-logging) - Small Kotlin logging library. Using slf4j under the hood.
+
+### Scripting
+[&uarr;](#table-of-contents)
+* [KScript](https://github.com/holgerbrandl/kscript) - Enchanted Kotlin scripting support on *nix-based systems.
+
+### Source Code Utilities
+[&uarr;](#table-of-contents)
+* [Kotlin Poet](https://github.com/square/kotlinpoet) - library with fluent interface for generating .kt files.
+
+### SQL
+[&uarr;](#table-of-contents)
+* [Exposed](https://github.com/JetBrains/Exposed) - Lightweight SQL framework from JetBrains, Used JDBC driver under the hood, supports most popular database engines (Oracle, MySql, Postgre etc).
+
+### Reactive
+[&uarr;](#table-of-contents)
+* [RxTest](https://github.com/RubyLichtenstein/RxTest) - Kotlin DSL for easier RxJava testing.
+
+### HowTo
+[&uarr;](#table-of-contents)
+* [GOF in Kotlin](https://github.com/lmller/gof-in-kotlin) - Most Popular design patterns examples in Kotlin.
+
+### WebDriver
+[&uarr;](#table-of-contents)
+* [Kirk](https://github.com/SergeyPirogov/kirk) - Selenium wrapper written in Kotlin.
