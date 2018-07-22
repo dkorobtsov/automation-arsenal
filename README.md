@@ -250,3 +250,7 @@
 [&uarr;](#table-of-contents)
 * [Software Testing Conferences](https://testingconferences.org/) - Live calendar for incoming Software testing conferences.
 * [IT Conference Top](https://itconference.top/) - Best Developer Conferences to attend in Europe.
+
+---
+## License
+[![CC-BY-SA-4.0](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-sa.svg)](https://creativecommons.org/licenses/by-sa/4.0/)

@@ -1,3 +1,14 @@
+# Automation Arsenal - Java Libraries
+
+---
+**Find this list helpful? Show some support:**
+>![GitHub followers](https://img.shields.io/github/followers/dkorobtsov.svg?style=social&label=Follow)
+[![GitHub forks](https://img.shields.io/github/forks/dkorobtsov/automation-arsenal.svg?style=social&label=Fork)](https://github.com/dkorobtsov/automation-arsenal/fork)
+[![GitHub stars](https://img.shields.io/github/stars/dkorobtsov/automation-arsenal.svg?style=social&label=Star)](https://github.com/dkorobtsov/automation-arsenal)
+[![Twitter Follow](https://img.shields.io/twitter/follow/dkorobtsov.svg?style=social&label=Follow)](https://twitter.com/dkorobtsov)
+
+---
+
 ## [Table of Contents](#table-of-contents)
 <!-- TOC depthFrom:2 depthTo:6 withLinks:1 updateOnSave:0 orderedList:0 -->
 - [Automation Arsenal](https://github.com/dkorobtsov/automation-arsenal#table-of-contents)
@@ -293,3 +304,7 @@
 [&uarr;](#table-of-contents)
 - [JAXB Converter](https://github.com/square/retrofit/tree/master/retrofit-converters/jaxb) - Retrofit Converter for serialization to and from XML.
 - [XML Unit](https://github.com/xmlunit/xmlunit) - XML testing library.
+
+---
+## License
+[![CC-BY-SA-4.0](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-sa.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
