@@ -1,16 +1,23 @@
 # Automation Arsenal
 
-**What is the purpose of this list?** To gather in one place up-to-date list of popular Java and Kotlin frameworks, libraries and tools directly (on indirectly) related to software testing, quality assurance and adjacent processes automation. Basically speaking everything related to [engineering productivity](https://saucelabs.com/blog/qa-is-not-enough-you-need-to-engineer-productivity).
+**What is the purpose of this list?**
+> To gather in one place up-to-date list of popular Java and Kotlin frameworks, libraries and tools directly (on indirectly) related to software testing, quality assurance and adjacent processes automation. Basically speaking everything related to [engineering productivity](https://saucelabs.com/blog/qa-is-not-enough-you-need-to-engineer-productivity).
 
-**Why?** First of all - to have reference to all commonly used modern tools (and not so obvious things that can be handy or just good to know) in one place. Because it usually takes a little bit more then general Selenium knowledge to build reliable and flexible automated testing infrastructure. Another reason was to provide some guidance to those who are at the beginning of their journey - so categories are as focused as possible, keeping dead and 'vintage' libraries out of scope.
+**Why?**
+> First of all - to have reference to all commonly used modern tools (and not so obvious things that can be handy or just good to know) in one place. Because it usually takes a little bit more then general Selenium knowledge to build reliable and flexible automated testing infrastructure. Another reason was to provide some guidance to those who are at the beginning of their journey - so categories are as focused as possible, keeping dead and 'vintage' libraries out of scope.
 
-<!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:0 orderedList:0 -->
+**Find this helpful? Show some support:**
+>![GitHub followers](https://img.shields.io/github/followers/dkorobtsov.svg?style=social&label=Follow)
+[![GitHub forks](https://img.shields.io/github/forks/dkorobtsov/automation-arsenal.svg?style=social&label=Fork)](https://github.com/dkorobtsov/automation-arsenal/fork)
+[![GitHub stars](https://img.shields.io/github/stars/dkorobtsov/automation-arsenal.svg?style=social&label=Star)](https://github.com/dkorobtsov/automation-arsenal)
+![Twitter Follow](https://img.shields.io/twitter/follow/dkorobtsov.svg?style=social&label=Follow)
 
+<!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 - [Table of Contents](#automation-arsenal)
 	- [Java](#java)
 		- [AOP](#aop)
 		- [Alexa](#alexa)
-		- [Asserts](#asserts)
+		- [Assertions](#assertions)
 		- [AWS](#aws)
 		- [BDD](#bdd)
 		- [Bots](#bots)
@@ -40,7 +47,7 @@
 		- [REST](#rest)
 		- [Serverless](#serverless)
 		- [SSH](#ssh)
-		- [Source Code Utils](#source-code-utils)
+		- [Source Code Utilities](#source-code-utilities)
 		- [SQL](#sql)
 		- [Telephony](#telephony)
 		- [Text Utilities](#text-utilities)
@@ -64,7 +71,7 @@
 		- [Mutation](#mutation)
 		- [Logging](#logging)
 		- [Scripting](#scripting)
-		- [Source Code Utils](#source-code-utils)
+		- [Source Code Utilities](#source-code-utilities)
 		- [SQL](#sql)
 		- [Reactive](#reactive)
 		- [HowTo](#howto)
@@ -108,8 +115,9 @@
 * [Alexa Skills Kit Java SDK](https://github.com/alexa/alexa-skills-kit-sdk-for-java) - SDK kit for developing custom Alexa skills.
 * [Alexa Skills Kit Testing Framework](https://github.com/KayLerch/alexa-skills-kit-tester-java) Testing Framework for custom Alexa skills validation.
 
-### Asserts
-* [Assertj](https://github.com/joel-costigliola/assertj-core) - Fluent Assertions for Java.
+### Assertions
+* [Assertj](https://github.com/joel-costigliola/assertj-core) - Fluent Assertions for Java
+* [Truth](https://github.com/google/truth) - Fluent Assertions from Google
 * [Java Hamcrest](https://github.com/hamcrest/JavaHamcrest) - Popular matchers library.
 
 ### AWS
@@ -198,7 +206,7 @@
 * [Slf4j](https://github.com/qos-ch/slf4j) - Simple Logging Facade for Java
 * [Tinylog](https://github.com/pmwmedia/tinylog) - Minimalistic logging framework for Java and Android.
 
-### Localisation
+### Localization
 * [Language Detector](https://github.com/optimaize/language-detector) - Library taking text as input as returning language it was written in. Should admit returns quite a lot of false positives for short strings, but still - extremely useful for fast localization checks.
 * [Languagetool](https://github.com/languagetool-org/languagetool) - Style and Grammar Checker supporting 25+ Languages. Check official [docs](https://languagetool.org/dev) for usage details.
 
@@ -252,7 +260,7 @@
 ### SSH
 * [JSch](https://github.com/is/jsch) - Java SSH interface. Allows to manage remote *nix servers programmatically.
 
-### Source Code Utils
+### Source Code Utilities
 * [Javapoet](https://github.com/square/javapoet) - Library with fluent interface for generating .java files.
 
 ### SQL
@@ -348,7 +356,7 @@
 ### Scripting
 * [KScript](https://github.com/holgerbrandl/kscript) - Enchanted Kotlin scripting support on *nix-based systems.
 
-### Source Code Utils
+### Source Code Utilities
 * [Kotlin Poet](https://github.com/square/kotlinpoet) - library with fluent interface for generating .kt files.
 
 ### SQL
@@ -512,9 +520,9 @@
 * [SOLID](https://en.wikipedia.org/wiki/SOLID) - Five design principles to make code more understandable, flexible and maintainable.
 
 ### Practical advices
-* [Fluent Interface](https://www.martinfowler.com/bliki/FluentInterface.html) - Idea of Fluent Interfaces explained. Consider it as one of the building blocks for building internal testing DSL.
+* [Fluent Interface](https://www.martinfowler.com/bliki/FluentInterface.html) - Fluent Interfaces explained. Consider it as one of the building blocks when creating internal testing DSL.
 * [Reduce Nesting](https://testing.googleblog.com/2017/06/code-health-reduce-nesting-reduce.html) - Good example how to reduce nesting and improve readability.
-* [Tell Don't Ask Principle](https://martinfowler.com/bliki/TellDontAsk.html) - Pretty useful article from Martin Fowler. Could be really helpful when designing Page Object Model.
+* [Tell Don't Ask Principle](https://martinfowler.com/bliki/TellDontAsk.html) - Useful article from Martin Fowler. Could be really helpful when designing Page Object Model.
 * [To Comment or Not to Comment?](https://testing.googleblog.com/2017/07/code-health-to-comment-or-not-to-comment.html) - Article about comments in code.
 
 ### Must Read Books
