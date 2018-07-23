@@ -19,6 +19,7 @@
     - [Dependency Injection](#dependency-injection)
     - [Environment](#environment)
     - [ElasticSearch](#elasticsearch)
+    - [File System](#file-system)
     - [I/O](#io)
     - [Image Based](#image-based)
     - [JSON](#json)
@@ -32,6 +33,7 @@
     - [Mail](#mail)
     - [Mocks](#mocks)
     - [Mutation](#mutation)
+    - [PDF](#pdf)
     - [Reflection](#reflection)
     - [Reactive](#reactive)
     - [Reporting](#reporting)
@@ -51,6 +53,7 @@
   - [Cheat Sheets](https://github.com/dkorobtsov/automation-arsenal/tree/master/resources#cheat-sheets)
   - [Reading](https://github.com/dkorobtsov/automation-arsenal/tree/master/resources#reading)
   - [Events](https://github.com/dkorobtsov/automation-arsenal/tree/master/resources#events)
+  - [Video](https://github.com/dkorobtsov/automation-arsenal/tree/master/resources#video)
 
 ---
 
@@ -85,9 +88,9 @@
 
 ### Bots
 [&uarr;](#table-of-contents)
-* [JBot](https://github.com/rampatra/jbot) - Library for creating Slack and Facebook bots
-* [Simple Slack Api](https://github.com/Ullink/simple-slack-api) -  Java Slack client library
-* [Java Telegram Bot Api](https://github.com/pengrad/java-telegram-bot-api) - Telegram Bot API for Java
+* [JBot](https://github.com/rampatra/jbot) - Library for creating Slack and Facebook bots.
+* [Simple Slack Api](https://github.com/Ullink/simple-slack-api) -  Java Slack client library.
+* [Java Telegram Bot Api](https://github.com/pengrad/java-telegram-bot-api) - Telegram Bot API for Java.
 * [TelegramBots](https://github.com/rubenlagus/TelegramBots) - Java library to create bots using Telegram Bots API (With some examples).
 
 ### Code Coverage
@@ -131,13 +134,17 @@
 * [Logstash](https://github.com/elastic/logstash) - Part of ELK (ElasticSearch, Logstash, Kibana) logging stack, responsible for transport part.
 * [Kibana](https://github.com/elastic/kibana) - Search and Analytics Dashboard for ElasticSearch. Probably it should be in the Tools section, but it's better to keep here with related products.
 
+### File System
+[&uarr;](#table-of-contents)
+* [Jimfs](https://github.com/google/jimfs) - In-memory file system for Java 7 and above. Can be helpful to create disposable instance of file system to work with temporary files during tests execution.
+
 ### I/O
 [&uarr;](#table-of-contents)
 * [Okio](https://github.com/square/okio) - Popular [Square](http://square.github.io/) library: I/O operations made easy.
 
 ### Image Based
 [&uarr;](#table-of-contents)
-* [SikuliX2](https://github.com/RaiMan/SikuliX2) - massive redesign of popular SikuliX library. Promised to be released in October. So, let in be here, say "in watch list". One of the announced 'killer features' is an option to perform screenshot based testing of mobile apps.
+* [SikuliX2](https://github.com/RaiMan/SikuliX2) - massive redesign of popular SikuliX library. Promised to be released in October. So, let it be here, say "in watch list". One of the announced 'killer features' is an option to perform screenshot based testing of mobile apps.
 * [Ashot](https://github.com/yandex-qatools/ashot) - Useful library from Yandex for operating screenshots. Screenshot based testing etc.
 * [Screenshot Tests For Android](https://github.com/facebook/screenshot-tests-for-android) - Popular screenshot based mobile devices testing solution from Facebook.
 
@@ -153,7 +160,7 @@
 
 ### HTML
 [&uarr;](#table-of-contents)
-* [Jsoup](https://github.com/jhy/jsoup) - Java library for working with real-world HTML. It provides a very convenient API for extracting and manipulating data. Extremely useful. Works directly with html, without need of WebDriver. In certain cases pairs really well with WebDriver based library, greatly speeding up test execution - especially when it's needed to read huge amount of data from the UI.
+* [Jsoup](https://github.com/jhy/jsoup) - Java library for working with real-world HTML. It provides a very convenient API for extracting and manipulating data. Extremely useful. Works directly with html, without need of WebDriver. In certain cases pairs really well with WebDriver based libraries, greatly speeding up test execution - especially when it's needed to read huge amount of data from the UI.
 
 ### HTTP
 [&uarr;](#table-of-contents)
@@ -167,9 +174,9 @@
 [&uarr;](#table-of-contents)
 * [Auto](https://github.com/google/auto) - A collection of source code generators for Java.
 * [Lombok](https://github.com/rzwitserloot/lombok) - Annotation processing library, greatly reducing Java boilerplate. Check out list of [features](https://projectlombok.org/features/all).
-* [Vavr](https://github.com/vavr-io/vavr) - functional Java 8+ extension, adds some useful features - Scala-like switches, tuples, immutable data structures. Greatly reduces boilerplate.
+* [Vavr](https://github.com/vavr-io/vavr) - functional Java 8+ extension, adds some useful features: Scala-like switches, tuples, immutable data structures. Greatly reduces boilerplate.
 * [FreeBuilder](https://github.com/inferred/FreeBuilder) - Automatic generation of the Builder pattern.
-* [Manifold](https://github.com/manifold-systems/manifold) - yet another Java extension framework. Probably not yet ready for production, but it's definitely in a watchlist. Just check the [demo](https://manifold.systems/images/JsonDemo.mp4) to see some black magic.
+* [Manifold](https://github.com/manifold-systems/manifold) - Yet another Java extension framework. Probably not yet ready for production, but it's definitely in a watchlist. Just check the [demo](https://manifold.systems/images/JsonDemo.mp4) to see some black magic.
 
 ### Logging
 [&uarr;](#table-of-contents)
@@ -179,15 +186,15 @@
 
 ### Localization
 [&uarr;](#table-of-contents)
-* [Language Detector](https://github.com/optimaize/language-detector) - Library taking text as input as returning language it was written in. Should admit returns quite a lot of false positives for short strings, but still - extremely useful for fast localization checks.
+* [Language Detector](https://github.com/optimaize/language-detector) - Library taking text as an input and returning language it was written in. Should admit returns quite a lot of false positives for short strings, but still - extremely useful for fast localization checks.
 * [Languagetool](https://github.com/languagetool-org/languagetool) - Style and Grammar Checker supporting 25+ Languages. Check official [docs](https://languagetool.org/dev) for usage details.
 
 ### Mobile
 [&uarr;](#table-of-contents)
 * [Appium](https://github.com/appium/appium) - Most popular tool for mobile devices UI automation. Note that out of the box it rarely does something useful. Heavy customization is needed for particular use case. Works really well when paired with [Selenide](#selenide).
 * [Appium Espresso Driver](https://github.com/appium/appium-espresso-driver) - Not yet ready for production. Looks promising, so let it be in watch list.
-* [Appium Test Distribution](https://github.com/saikrishna321/AppiumTestDistribution) - Ready solution for tests distribution on multiple mobile devices. Based on Appium and TestNG. This is what I meant saying that out of the box Appium is pretty useless. You'll have to write your own solution or use this one (at least as an example).
-* [Android JUnit5 plugin](https://github.com/mannodermaus/android-junit5) - Library providing JUnit5 support for Android projects
+* [Appium Test Distribution](https://github.com/saikrishna321/AppiumTestDistribution) - Ready solution for tests distribution on multiple mobile devices. Based on Appium and TestNG. This is what I meant saying that out of the box Appium is pretty useless. You'll have to write your own bicycle or use this one (at least as an example).
+* [Android JUnit5 plugin](https://github.com/mannodermaus/android-junit5) - Library providing JUnit5 support for Android projects.
 * [Espresso](https://developer.android.com/training/testing/espresso/) - Google own testing framework for Android UI testing. Question is open which one is better option. In general, if you want flexibility - use Appium, if speed is a priority - go with Espresso.
 * [Espresso Samples](https://github.com/chiuki/espresso-samples) - Demo Project displaying various techniques for using Espresso library.
 * [JADB](https://github.com/vidstige/jadb) - ADB client in Java.
@@ -206,14 +213,18 @@
 * [Hoverfly Java](https://github.com/SpectoLabs/hoverfly-java) - Java bindings for [Hoverfly](https://hoverfly.io/) - proxy for http services simulation. Flexible DSL.
 * [Mockito](https://github.com/mockito/mockito) - Most popular Mocking framework for Java
 * [MockWebServer](https://github.com/square/okhttp/tree/master/mockwebserver) - OkHttp client own library for mocking web server responses.
-* [OkReplay](https://github.com/airbnb/okreplay) - Yet another approach to testing web services. Just record you app network traffic, then replay it in tests. No longer need to worry about 3rd services downtime. NB. Intended for using with OkHTTP client.
+* [OkReplay](https://github.com/airbnb/okreplay) - Yet another approach to testing web services. Just record you app network traffic, then replay it in tests. No longer need to worry about 3rd party services downtime. _NB: Intended to be used with OkHTTP client._
 * [Spark](https://github.com/perwendel/spark) - Simple Web Framework. Why it's here? Sometimes it's easier and faster to create Web Server then to mock it :)
 * [RESTMock](https://github.com/andrzejchm/RESTMock) - HTTP server for Android instrumentation tests. Works on top of MockWebServer, pairs really well with Hamcrest matchers.
 * [Wiremock](https://github.com/tomakehurst/wiremock) - Yet another tool for mocking HTTP services.
 
 ### Mutation
 [&uarr;](#table-of-contents)
-* [Pitest aka PIT](https://github.com/hcoles/pitest) - Mutation testing system for Java and the JVM. In short - testing system for unit tests. Modifies your source code and checks if test will fail. If they won't you could be doing something wrong.
+* [Pitest aka PIT](https://github.com/hcoles/pitest) - Mutation testing system for Java and the JVM. In short: testing system for unit tests. Modifies your source code and checks if test will fail. If they won't - you could be doing something wrong.
+
+### PDF
+[&uarr;](#table-of-contents)
+* [PDF Test](https://github.com/codeborne/pdf-test) - Library for testing PDF files.
 
 ### Reflection
 [&uarr;](#table-of-contents)
@@ -221,25 +232,25 @@
 
 ### Reactive
 [&uarr;](#table-of-contents)
-* [RxJava](https://github.com/ReactiveX/RxJava) - Reactive Extensions for the JVM – a library for composing asynchronous and event-based programs using observable sequences for the Java VM. Since it's practically a standard in modern Android applications, good no know how to use it. Read "Building a Reactive Mindset" [blog post](https://upday.github.io/blog/reactive_mindset_burgers/) for comprehensive explanation.
+* [RxJava](https://github.com/ReactiveX/RxJava) - Reactive Extensions for the JVM – a library for composing asynchronous and event-based programs using observable sequences for the Java VM. Since it's practically a standard in modern Android applications, good to know how to use it. Read "Building a Reactive Mindset" [blog post](https://upday.github.io/blog/reactive_mindset_burgers/) for comprehensive explanation.
 * [Awaitility](https://github.com/awaitility/awaitility) - Small Java DSL for testing asynchronous operations.
 
 ### Reporting
 [&uarr;](#table-of-contents)
 * [Allure 2](https://github.com/allure-framework/allure2) Test reports. Good looking, flexible and easy to use. Easily integrates with most of the  popular testing frameworks. Lots of plugins. Looking forward to see a third version. Any bets it will be released at all?
 * [Allure Java](https://github.com/allure-framework/allure-java) Collection of small libraries (most of them contains just a single class) to integrate Allure with popular Java frameworks.
-* [Report Portal](https://github.com/reportportal/reportportal) Great solution for aggregating all your tests run results into single highly customizable dashboard. Provides good insight on how automated testing projects are doing under the hood. Requires stand alone server, installs as a group of dockerized microservices.
+* [Report Portal](https://github.com/reportportal/reportportal) Great solution for aggregating all your test run results into single highly customizable dashboard. Provides good insight on how automated testing projects are doing under the hood. Requires stand-alone server, installs as a group of dockerized microservices.
 
 ### REST
 [&uarr;](#table-of-contents)
-* [REST-assured](https://github.com/rest-assured/rest-assured) - Most popular library for REST services testing. Personally however, I prefer Retrofit / OkHttp / Moshi / AssertJ combination. But should admit that both approaches have pros and cons.
+* [REST-assured](https://github.com/rest-assured/rest-assured) - Most popular library for REST services testing. Personally however, I prefer Retrofit / OkHttp / Moshi / AssertJ combination. But should admit that both approaches have their pros and cons.
 
 ### Serverless
 [&uarr;](#table-of-contents)
-* [Docker In AWS Lambda](https://github.com/vladgolubev/docker-in-aws-lambda) - illustration for [this](https://medium.com/@vladholubiev/how-did-i-hack-aws-lambda-to-run-docker-containers-7184dc47c09b) blog post.
+* [Docker In AWS Lambda](https://github.com/vladgolubev/docker-in-aws-lambda) - Illustration for [this](https://medium.com/@vladholubiev/how-did-i-hack-aws-lambda-to-run-docker-containers-7184dc47c09b) blog post.
 * [Lambda](https://github.com/iron-io/lambda) - Set of tools and libraries for converting Lambdas to Docker images.
-* [Lambda-Selenium](https://github.com/blackboard/lambda-selenium)  - Demo project, displaying how to run Selenium tests using AWS Lambda
-* [Lambdium](https://github.com/smithclay/lambdium) - yet another library for running webdriver tests in AWS Lambda
+* [Lambda-Selenium](https://github.com/blackboard/lambda-selenium)  - Demo project, displaying how to run Selenium tests using AWS Lambda.
+* [Lambdium](https://github.com/smithclay/lambdium) - yet another library for running webdriver tests in AWS Lambda.
 
 ### SSH
 [&uarr;](#table-of-contents)
@@ -285,12 +296,12 @@
 ### WebDriver
 [&uarr;](#table-of-contents)
 * [Selenide](https://github.com/codeborne/selenide) - Best UI testing library. Period. Technically it's a wrapper over Selenium, but who writes tests using pure Selenium nowadays? Check [wiki](https://github.com/codeborne/selenide/wiki/Selenide-vs-Selenium) for general comparison.
-* [Selenium](https://github.com/SeleniumHQ/selenium) - Testing framework for web applications. Understanding how in works is a must since it's under the hood in almost all modern UI testing libraries, but keep in mind that writing tests with pure Selenium will be much slower because of the boilerplate.
+* [Selenium](https://github.com/SeleniumHQ/selenium) - Testing framework for web applications. Understanding how it works is a must since it's under the hood in almost all modern UI testing libraries, but keep in mind that writing tests with pure Selenium will be much slower because of the boilerplate.
 * [Selenoid](https://github.com/aerokube/selenoid) - Modern library for running browsers within containers, Selenium Hub successor.
 * [Selenoid UI](https://github.com/aerokube/selenoid-ui) - Graphical user interface for Selenoid project.
 * [Go Grid Router](https://github.com/aerokube/ggr) - Load balancer for Selenium clusters.
 * [WebDriver Manager](https://github.com/bonigarcia/webdrivermanager) - Automatic management of Selenium WebDriver binaries. NB: If you are using Selenide - don't bother looking at this library, it's already included under the hood.
-* [Browsermob Proxy](https://github.com/lightbody/browsermob-proxy) utility to help web developers watch and manipulate network traffic from their AJAX applications. NB: In scope of UI tests since version [4.11](http://selenide.org/2018/04/02/selenide-4.11/) it's possible to use Selenide own proxy which is using Browsermob under the hood.
+* [Browsermob Proxy](https://github.com/lightbody/browsermob-proxy) - Utility to help web developers watch and manipulate network traffic from their AJAX applications. NB: In scope of UI tests since version [4.11](http://selenide.org/2018/04/02/selenide-4.11/) it's possible to use Selenide own proxy which is using Browsermob under the hood.
 * [Video Recorder Java](https://github.com/SergeyPirogov/video-recorder-java) - Library for UI test execution process video recording. Just add some annotations, simple as that.
 
 ### XML

@@ -14,6 +14,7 @@
    - [Must Read Books](#must-read-books)
    - [Useful Read](#useful-read)
   - [Events](#events)
+  - [Video](#video)
 
 ---
 
@@ -73,11 +74,14 @@
 * [Useful Java Links](https://github.com/Vedenin/useful-java-links) - A list of useful Java frameworks, libraries, software and hello worlds examples.
 * [Yegor's Blog](https://www.yegor256.com/) - Always a good read.
 
-
 ## Events
 [&uarr;](#table-of-contents)
 * [Software Testing Conferences](https://testingconferences.org/) - Live calendar for incoming Software testing conferences.
 * [IT Conference Top](https://itconference.top/) - Best Developer Conferences to attend in Europe.
+
+## Video
+[&uarr;](#table-of-contents)
+* [DevTube](https://dev.tube/) - Basically, YouTube for Software Development related videos. Lots of useful material.
 
 &nbsp;
 

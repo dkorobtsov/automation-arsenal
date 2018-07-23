@@ -14,6 +14,7 @@
   	- [Dependency Injection](#dependency-injection)
   	- [Framework](#framework)
   	- [JSON](#json)
+  	- [HowTo](#howto)
   	- [HTTP](#http)
   	- [Language extensions](#language-extensions)
   	- [Mocking](#mocking)
@@ -23,12 +24,12 @@
   	- [Source Code Utilities](#source-code-utilities)
   	- [SQL](#sql)
   	- [Reactive](#reactive)
-  	- [HowTo](#howto)
   	- [WebDriver](#webdriver)
   - [Tools](https://github.com/dkorobtsov/automation-arsenal/tree/master/tools#table-of-contents)
   - [Cheat Sheets](https://github.com/dkorobtsov/automation-arsenal/tree/master/resources#cheat-sheets)
   - [Reading](https://github.com/dkorobtsov/automation-arsenal/tree/master/resources#reading)
   - [Events](https://github.com/dkorobtsov/automation-arsenal/tree/master/resources#events)
+  - [Video](https://github.com/dkorobtsov/automation-arsenal/tree/master/resources#video)
 
 ---
 
@@ -57,7 +58,7 @@
 
 ### Dependency Injection
 [&uarr;](#table-of-contents)
-* [Koin](https://github.com/InsertKoinIO/koin) - LightWeight Dependency Injection framework. Still not sure if it makes sense to use DI in test automation if you are not into unit testing, but this library sure worth mentioning.
+* [Koin](https://github.com/InsertKoinIO/koin) - LightWeight Dependency Injection framework. Still not sure if it makes sense to use DI in test automation unless you are into unit testing, but this library sure worth mentioning.
 
 ### Framework
 [&uarr;](#table-of-contents)
@@ -67,9 +68,13 @@
 [&uarr;](#table-of-contents)
 * [Kotshi](https://github.com/ansman/kotshi) - An annotations processor that generates Moshi adapters from immutable Kotlin data classes.
 
+### HowTo
+[&uarr;](#table-of-contents)
+* [GOF in Kotlin](https://github.com/lmller/gof-in-kotlin) - Most popular design pattern examples in Kotlin.
+
 ### HTTP
 [&uarr;](#table-of-contents)
-* [Fuel](https://github.com/kittinunf/Fuel) - Advertised as the easiest HTTP networking library for Kotlin/Android. Frankly speaking tried in scope of one project. Tastes good, but not that good to switch from Retrofit. Still, once again - just a matter of taste.
+* [Fuel](https://github.com/kittinunf/Fuel) - Advertised as the easiest HTTP networking library for Kotlin/Android.
 
 ### Language extensions
 [&uarr;](#table-of-contents)
@@ -100,15 +105,13 @@
 
 ### SQL
 [&uarr;](#table-of-contents)
-* [Exposed](https://github.com/JetBrains/Exposed) - Lightweight SQL framework from JetBrains, Used JDBC driver under the hood, supports most popular database engines (Oracle, MySql, Postgre etc).
+* [Exposed](https://github.com/JetBrains/Exposed) - Lightweight SQL framework from JetBrains, uses JDBC driver under the hood, supports most popular database engines (Oracle, MySql, Postgre etc).
 
 ### Reactive
 [&uarr;](#table-of-contents)
 * [RxTest](https://github.com/RubyLichtenstein/RxTest) - Kotlin DSL for easier RxJava testing.
 
-### HowTo
-[&uarr;](#table-of-contents)
-* [GOF in Kotlin](https://github.com/lmller/gof-in-kotlin) - Most Popular design patterns examples in Kotlin.
+
 
 ### WebDriver
 [&uarr;](#table-of-contents)
