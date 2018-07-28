@@ -15,6 +15,7 @@
 	- [Cheat Sheets](https://github.com/dkorobtsov/automation-arsenal/tree/master/resources#cheat-sheets)
 	- [Reading](https://github.com/dkorobtsov/automation-arsenal/tree/master/resources#reading)
 	- [Events](https://github.com/dkorobtsov/automation-arsenal/tree/master/resources#events)
+	- [Video](https://github.com/dkorobtsov/automation-arsenal/tree/master/resources#video)
 
 &nbsp;
 

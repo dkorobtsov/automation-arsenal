@@ -40,6 +40,7 @@
 [&uarr;](#table-of-contents)
 * [Google API Explorer](https://developers.google.com/apis-explorer/#p/) - Explorer for APIs provided by Google.
 * [Swagger](https://swagger.io/) - Way to go when designing API.
+* [Swagger Code Generator](https://github.com/swagger-api/swagger-codegen) - Tool to generate API clients and server stubs in different languages by parsing OpenAPI / Swagger definition.
 * [Postman](https://www.getpostman.com/) One of the best tools available for working with API.
 * [Programmable Web](https://www.programmableweb.com/apis/directory) - Largest API Directory on the Web. To answer typical question - if there are any sandboxes for API testing practice. Any public API will do. :)
 
@@ -51,6 +52,7 @@
 ### Artifacts Handling
 [&uarr;](#table-of-contents)
 * [Artifact Listener](https://www.artifact-listener.org/) - Get notified when followed library gets an update.
+* [Dependabot](https://dependabot.com/) - Useful tool for handling GitHub repository dependencies.
 * [Gradle, Please](https://gradleplease.appspot.com/#selenide) - Nice little tool to search for Gradle dependencies.
 * [Maven Central](http://search.maven.org/) - Search engine for Maven Central repository.
 
@@ -65,6 +67,7 @@
 * [Snyk](https://github.com/snyk/snyk) - CLI and build-time tool to find & fix known vulnerabilities in open-source dependencies
 * [Travis CI](https://travis-ci.org/) - Out of the box CI solution for GitHub hosted projects.
 * [Webhook](https://github.com/adnanh/webhook) - Lightweight webserver with configurable webhooks. Allows to execute shell commands on remote servers.
+* [Wercker](http://www.wercker.com) - Cloud CI solution from Oracle. Easily integrates with GitHub. Free plan is limited to 2 simultaneous builds.
 
 ### Code Coverage
 [&uarr;](#table-of-contents)
