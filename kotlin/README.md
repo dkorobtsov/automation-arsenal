@@ -47,6 +47,7 @@
 ### Code Quality
 [&uarr;](#table-of-contents)
 * [Detekt](https://github.com/arturbosch/detekt) - Static code analysis for Kotlin.
+* [KtLint](https://github.com/shyiko/ktlint) - Linter for Kotlin projects.
 
 ### Configuration and Properties
 [&uarr;](#table-of-contents)

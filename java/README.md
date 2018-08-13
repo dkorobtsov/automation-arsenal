@@ -195,6 +195,7 @@
 * [Appium Espresso Driver](https://github.com/appium/appium-espresso-driver) - Not yet ready for production. Looks promising, so let it be in watch list.
 * [Appium Test Distribution](https://github.com/saikrishna321/AppiumTestDistribution) - Ready solution for tests distribution on multiple mobile devices. Based on Appium and TestNG. This is what I meant saying that out of the box Appium is pretty useless. You'll have to write your own bicycle or use this one (at least as an example).
 * [Android JUnit5 plugin](https://github.com/mannodermaus/android-junit5) - Library providing JUnit5 support for Android projects.
+* [Barista](https://github.com/SchibstedSpain/Barista) - Convenient wrapper library build on top of Espresso.
 * [Espresso](https://developer.android.com/training/testing/espresso/) - Google own testing framework for Android UI testing. Question is open which one is better option. In general, if you want flexibility - use Appium, if speed is a priority - go with Espresso.
 * [Espresso Samples](https://github.com/chiuki/espresso-samples) - Demo Project displaying various techniques for using Espresso library.
 * [JADB](https://github.com/vidstige/jadb) - ADB client in Java.
@@ -243,7 +244,9 @@
 
 ### REST
 [&uarr;](#table-of-contents)
+* [Karate](https://github.com/intuit/karate) - Cucumber-based web services testing tool.
 * [REST-assured](https://github.com/rest-assured/rest-assured) - Most popular library for REST services testing. Personally however, I prefer Retrofit / OkHttp / Moshi / AssertJ combination. But should admit that both approaches have their pros and cons.
+* [Unirest](https://github.com/OpenUnirest/unirest-java) - New life of popular HTTP client. Simple and convenient DSL.
 
 ### Serverless
 [&uarr;](#table-of-contents)
