@@ -1,3 +1,5 @@
+![WordCloud](https://github.com/dkorobtsov/automation-arsenal/blob/master/wordcloud.png)
+
 # Automation Arsenal
 
 **What is the purpose of this list?**
