@@ -8,6 +8,7 @@
     - [AOP](#aop)
     - [Alexa](#alexa)
     - [Assertions](#assertions)
+    - [API Testing](#api-testing)
     - [AWS](#aws)
     - [BDD](#bdd)
     - [Bots](#bots)
@@ -21,7 +22,8 @@
     - [ElasticSearch](#elasticsearch)
     - [File System](#file-system)
     - [I/O](#io)
-    - [Image Based](#image-based)
+    - [Image Based Testing](#image-based-testing)
+    - [Image Recognition](#image-recognition)
     - [JSON](#json)
     - [HowTo](#howto)
     - [HTML](#html)
@@ -34,18 +36,20 @@
     - [Mocks](#mocks)
     - [Mutation](#mutation)
     - [PDF](#pdf)
+    - [Profiling](#profiling)
     - [Reflection](#reflection)
     - [Reactive](#reactive)
-    - [Reporting](#reporting)
-    - [REST](#rest)
     - [Serverless](#serverless)
-    - [SSH](#ssh)
     - [Source Code Utilities](#source-code-utilities)
+    - [SSH](#ssh)
     - [SQL](#sql)
+    - [System Information](#system-information)
     - [Telephony](#telephony)
-    - [Text Utilities](#text-utilities)
     - [Test Data](#test-data)
-    - [xUnit Framework](#xunit-framework)
+    - [Test Reporting](#test-reporting)
+    - [Test Runners](#test-runners)
+    - [Unit Testing](#unit-testing)
+    - [Utilities](#utilities)
     - [WebDriver](#webdriver)
     - [XML](#xml)
   - [Kotlin Libraries](https://github.com/dkorobtsov/automation-arsenal/tree/master/kotlin#table-of-contents)
@@ -75,10 +79,15 @@
 * [Truth](https://github.com/google/truth) - Fluent Assertions from Google
 * [Java Hamcrest](https://github.com/hamcrest/JavaHamcrest) - Popular matchers library.
 
+### API Testing
+* [Karate](https://github.com/intuit/karate) - Cucumber-based web services testing tool. 
+* [REST-assured](https://github.com/rest-assured/rest-assured) - Most popular library for REST services testing. Personally however, I prefer Retrofit / OkHttp / Moshi / AssertJ combination.
+
 ### AWS
 [&uarr;](#table-of-contents)
 * [AWS SDK Java](https://github.com/aws/aws-sdk-java) - Official Java SDK for controlling Amazon Web Services.
 * [AWS Java Sample](https://github.com/aws-samples/aws-java-sample) - Sample project illustrating usage of the AWS SDK for Java.
+* [AWS SAM Java REST](https://github.com/aws-samples/aws-sam-java-rest) - Another project with sample serverless application demonstrating testing with DynamoDB Local.
 
 ### BDD
 [&uarr;](#table-of-contents)
@@ -105,9 +114,10 @@
 [&uarr;](#table-of-contents)
 * [Android Check 2](https://github.com/stoyicker/android-check-2) - Static code analysis plugin for Android projects.
 * [Error Prone](https://github.com/google/error-prone) - Static analysis tool catching common programming mistakes at compile-time.
-* [Gradle Quality Plugin](https://github.com/xvik/gradle-quality-plugin) - Static code analysis for Java and Groovy projects using Checkstyle, PMD, SpotBugs (FindBugs) and CodeNarc.
+* [Gradle Quality Plugin](https://github.com/xvik/gradle-quality-plugin) - Static code analysis for Java and Groovy projects using Checkstyle, PMD, SpotBugs and CodeNarc.
+* [SpotBugs](https://github.com/spotbugs/spotbugs) - FindBugs' successor. A tool for static analysis to look for bugs in Java code. Plugins to look for security bugs are also available.
 * [Style Guide](https://github.com/google/styleguide) - Google collection of importable code style configuration files for most popular languages and IDEs.
-*  [Qulice](https://github.com/teamed/qulice) - Maven quality control plugin. Qulice [explained](https://www.yegor256.com/2014/08/13/strict-code-quality-control.html).
+* [Qulice](https://github.com/teamed/qulice) - Maven quality control plugin. Qulice [explained](https://www.yegor256.com/2014/08/13/strict-code-quality-control.html).
 
 ### CLI
 [&uarr;](#table-of-contents)
@@ -121,12 +131,18 @@
 
 ### Dependency
 [&uarr;](#table-of-contents)
-* [Dagger 2](https://github.com/google/dagger) - modern and fast DI framework. Can be pretty [useful](https://medium.com/@fabioCollini/android-testing-using-dagger-2-mockito-and-a-custom-junit-rule-c8487ed01b56) for unit testing.
+* [Dagger 2](https://github.com/google/dagger) - Modern and fast DI framework. Can be pretty [useful](https://medium.com/@fabioCollini/android-testing-using-dagger-2-mockito-and-a-custom-junit-rule-c8487ed01b56) for unit testing.
 * [DaggerMock](https://github.com/fabioCollini/DaggerMock) - A JUnit rule to easily override Dagger 2 objects.
+* [Guice](https://github.com/google/guice) - Lightweight dependency injection framework by Google. Quite often used with Cucumber based tests.
 
 ### Environment
 [&uarr;](#table-of-contents)
+* [Go Grid Router](https://github.com/aerokube/ggr) - Load balancer for Selenium clusters.
 * [Testcontainers Java](https://github.com/testcontainers/testcontainers-java) - Java 8 library providing lightweight, throwaway instances of common databases, Selenium web browsers, or anything else that can run in a Docker container. Good blog [post](https://zeroturnaround.com/rebellabs/java-integration-testing-with-testcontainers/) on topic.
+* [Selenoid](https://github.com/aerokube/selenoid) - Modern library for running browsers within containers, Selenium Hub successor.
+* [Selenoid UI](https://github.com/aerokube/selenoid-ui) - Graphical user interface for Selenoid project.
+* [Moon](https://github.com/aerokube/moon) - Paid version of Selenoid to run browsers with [Kubernetes](https://github.com/kubernetes/kubernetes).
+* [WebDriver Manager](https://github.com/bonigarcia/webdrivermanager) - Automatic management of Selenium WebDriver binaries. NB: If you are using Selenide - don't bother looking at this library, it's already included under the hood.
 
 ### ElasticSearch
 [&uarr;](#table-of-contents)
@@ -142,16 +158,20 @@
 [&uarr;](#table-of-contents)
 * [Okio](https://github.com/square/okio) - Popular [Square](http://square.github.io/) library: I/O operations made easy.
 
-### Image Based
+### Image Based Testing
 [&uarr;](#table-of-contents)
-* [SikuliX2](https://github.com/RaiMan/SikuliX2) - massive redesign of popular SikuliX library. Promised to be released in October. So, let it be here, say "in watch list". One of the announced 'killer features' is an option to perform screenshot based testing of mobile apps.
+* [SikuliX2](https://github.com/RaiMan/SikuliX2) - Massive redesign of popular SikuliX library. Promised to be released in October. So, let it be here, say "in watch list". One of the announced 'killer features' is an option to perform screenshot based testing of mobile apps.
 * [Ashot](https://github.com/yandex-qatools/ashot) - Useful library from Yandex for operating screenshots. Screenshot based testing etc.
 * [Screenshot Tests For Android](https://github.com/facebook/screenshot-tests-for-android) - Popular screenshot based mobile devices testing solution from Facebook.
+
+### Image Recognition
+[&uarr;](#table-of-contents)
+* [Tess4J](https://github.com/nguyenq/tess4j) - Optical character recognition library supporting most popular image formats and PDFs documents. 
 
 ### JSON
 [&uarr;](#table-of-contents)
 * [JSONAssert](https://github.com/skyscreamer/JSONassert) - Library simplifying assertion of Json documents.
-* [Moshi](https://github.com/square/moshi) - modern JSON library for Android and Java, works really well with other [Square](http://square.github.io/) libraries.
+* [Moshi](https://github.com/square/moshi) - Modern JSON library for Android and Java, works really well with other [Square](http://square.github.io/) libraries.
 * [Moshi Lazy Adapters](https://github.com/serj-lotutovici/moshi-lazy-adapters) - A collection of simple JsonAdapters for Moshi.
 
 ### HowTo
@@ -164,11 +184,13 @@
 
 ### HTTP
 [&uarr;](#table-of-contents)
-* [OkHttp](https://github.com/square/okhttp) - Popular HTTP client by [Square](http://square.github.io/).
-* [Parallec](https://github.com/eBay/parallec) - Lightning fast Parallel Async HTTP/SSH/TCP/UDP/Ping Client Java Library. Allows requesting thousands of remote endpoints, collect results and forward them elsewhere.
+* [Feign](https://github.com/OpenFeign/feign) - High level REST client - works on top of OkHttp3 or Apache client. Quite similar to Retrofit.
+* [OkHttp3](https://github.com/square/okhttp) - Popular HTTP client by [Square](http://square.github.io/).
 * [LoggingInterceptor](https://github.com/dkorobtsov/LoggingInterceptor) My own version of popular Android [library](https://github.com/ihsanbal/LoggingInterceptor) adapted for use with popular Java loggers - basically OkHttp interceptor, with pretty  requests/responses output to console. Useful when writing API tests or developing REST client.
+* [Parallec](https://github.com/eBay/parallec) - Lightning fast Parallel Async HTTP/SSH/TCP/UDP/Ping Client Java Library. Allows requesting thousands of remote endpoints, collect results and forward them elsewhere.
 * [Retrofit](https://github.com/square/retrofit) - Type-safe HTTP client for Android and Java by Square. Working with REST API's made easy and simple.
-* [Feign](https://github.com/OpenFeign/feign) - Another popular HTTP client library. Quite similar to Retrofit.
+* [RetroAuth](https://github.com/andretietz/retroauth) - A library build on top of retrofit to simplify handling of authenticated requests.
+* [Unirest](https://github.com/OpenUnirest/unirest-java) - New life of popular HTTP client. Simple and convenient DSL.
 
 ### Language extensions
 [&uarr;](#table-of-contents)
@@ -180,7 +202,8 @@
 
 ### Logging
 [&uarr;](#table-of-contents)
-* [Log4j2](https://github.com/apache/logging-log4j2) - one of the most popular Java logging frameworks. Endless customization options, though could be a little bit complicated to perform initial configuration.
+* [Log4j2](https://github.com/apache/logging-log4j2) - One of the most popular Java logging frameworks. Endless customization options, though could be a little bit complicated to perform initial configuration.
+* [Logback](https://github.com/qos-ch/logback) - Another popular logging framework.
 * [Slf4j](https://github.com/qos-ch/slf4j) - Simple Logging Facade for Java
 * [Tinylog](https://github.com/pmwmedia/tinylog) - Minimalistic logging framework for Java and Android.
 
@@ -212,9 +235,10 @@
 [&uarr;](#table-of-contents)
 * [JMockit](https://github.com/jmockit/jmockit1) - Library for creating test mocks. Not so famous as Mockito, but definitely just as good. Just a matter of taste which one to choose.
 * [Hoverfly Java](https://github.com/SpectoLabs/hoverfly-java) - Java bindings for [Hoverfly](https://hoverfly.io/) - proxy for http services simulation. Flexible DSL.
-* [Mockito](https://github.com/mockito/mockito) - Most popular Mocking framework for Java
+* [Mockito](https://github.com/mockito/mockito) - Most popular Mocking framework for Java.
 * [MockWebServer](https://github.com/square/okhttp/tree/master/mockwebserver) - OkHttp client own library for mocking web server responses.
 * [OkReplay](https://github.com/airbnb/okreplay) - Yet another approach to testing web services. Just record you app network traffic, then replay it in tests. No longer need to worry about 3rd party services downtime. _NB: Intended to be used with OkHTTP client._
+* [PowerMock](https://github.com/powermock/powermock) - Extension for other mocking libraries like EasyMock or Mockito enabling mocking of static methods, constructors, private methods etc.
 * [Spark](https://github.com/perwendel/spark) - Simple Web Framework. Why it's here? Sometimes it's easier and faster to create Web Server then to mock it :)
 * [RESTMock](https://github.com/andrzejchm/RESTMock) - HTTP server for Android instrumentation tests. Works on top of MockWebServer, pairs really well with Hamcrest matchers.
 * [Wiremock](https://github.com/tomakehurst/wiremock) - Yet another tool for mocking HTTP services.
@@ -227,41 +251,37 @@
 [&uarr;](#table-of-contents)
 * [PDF Test](https://github.com/codeborne/pdf-test) - Library for testing PDF files.
 
+### Profiling
+[&uarr;](#table-of-contents)
+* [Async Profiler](https://github.com/jvm-profiling-tools/async-profiler) - Sampling CPU and HEAP profiler for Java featuring AsyncGetCallTrace + perf_events.
+* [JVM Profiler](https://github.com/uber-common/jvm-profiler) - JVM Profiler by Uber sending Metrics to Kafka, Console Output or Custom Reporter.
+* [Honest Profiler](https://github.com/jvm-profiling-tools/honest-profiler) - Another sampling profiler for JVM. Check [Tools](https://github.com/dkorobtsov/automation-arsenal/tree/master/tools#profiling) for options to convert results to FlameGraph.
+* [Sniffy](https://github.com/sniffy/sniffy) - Java profiling for Hipsters. Displays results directly in browser.
+
 ### Reflection
 [&uarr;](#table-of-contents)
 * [Reflections](https://github.com/ronmamo/reflections) - Java runtime metadata analysis.
 
 ### Reactive
 [&uarr;](#table-of-contents)
-* [RxJava](https://github.com/ReactiveX/RxJava) - Reactive Extensions for the JVM – a library for composing asynchronous and event-based programs using observable sequences for the Java VM. Since it's practically a standard in modern Android applications, good to know how to use it. Read "Building a Reactive Mindset" [blog post](https://upday.github.io/blog/reactive_mindset_burgers/) for comprehensive explanation.
 * [Awaitility](https://github.com/awaitility/awaitility) - Small Java DSL for testing asynchronous operations.
-
-### Reporting
-[&uarr;](#table-of-contents)
-* [Allure 2](https://github.com/allure-framework/allure2) Test reports. Good looking, flexible and easy to use. Easily integrates with most of the  popular testing frameworks. Lots of plugins. Looking forward to see a third version. Any bets it will be released at all?
-* [Allure Java](https://github.com/allure-framework/allure-java) Collection of small libraries (most of them contains just a single class) to integrate Allure with popular Java frameworks.
-* [Report Portal](https://github.com/reportportal/reportportal) Great solution for aggregating all your test run results into single highly customizable dashboard. Provides good insight on how automated testing projects are doing under the hood. Requires stand-alone server, installs as a group of dockerized microservices.
-
-### REST
-[&uarr;](#table-of-contents)
-* [Karate](https://github.com/intuit/karate) - Cucumber-based web services testing tool.
-* [REST-assured](https://github.com/rest-assured/rest-assured) - Most popular library for REST services testing. Personally however, I prefer Retrofit / OkHttp / Moshi / AssertJ combination. But should admit that both approaches have their pros and cons.
-* [Unirest](https://github.com/OpenUnirest/unirest-java) - New life of popular HTTP client. Simple and convenient DSL.
+* [RxJava](https://github.com/ReactiveX/RxJava) - Reactive Extensions for the JVM – a library for composing asynchronous and event-based programs using observable sequences for the Java VM. Since it's practically a standard in modern Android applications, good to know how to use it. Read "Building a Reactive Mindset" [blog post](https://upday.github.io/blog/reactive_mindset_burgers/) for comprehensive explanation.
+* [Reactor](https://github.com/reactor/reactor-core) - Modern reactive streams for JVM. Rule of thumb - have older Java and Android, go with RxJava, otherwise makes sense to check Reactor.
 
 ### Serverless
 [&uarr;](#table-of-contents)
 * [Docker In AWS Lambda](https://github.com/vladgolubev/docker-in-aws-lambda) - Illustration for [this](https://medium.com/@vladholubiev/how-did-i-hack-aws-lambda-to-run-docker-containers-7184dc47c09b) blog post.
 * [Lambda](https://github.com/iron-io/lambda) - Set of tools and libraries for converting Lambdas to Docker images.
 * [Lambda-Selenium](https://github.com/blackboard/lambda-selenium)  - Demo project, displaying how to run Selenium tests using AWS Lambda.
-* [Lambdium](https://github.com/smithclay/lambdium) - yet another library for running webdriver tests in AWS Lambda.
-
-### SSH
-[&uarr;](#table-of-contents)
-* [JSch](https://github.com/is/jsch) - Java SSH interface. Allows to manage remote *nix servers programmatically.
+* [Lambdium](https://github.com/smithclay/lambdium) - Yet another library for running webdriver tests in AWS Lambda.
 
 ### Source Code Utilities
 [&uarr;](#table-of-contents)
 * [Javapoet](https://github.com/square/javapoet) - Library with fluent interface for generating .java files.
+
+### SSH
+[&uarr;](#table-of-contents)
+* [JSch](https://github.com/is/jsch) - Java SSH interface. Allows to manage remote *nix servers programmatically.
 
 ### SQL
 [&uarr;](#table-of-contents)
@@ -270,25 +290,34 @@
 * [RxJava JDBC](https://github.com/davidmoten/rxjava-jdbc) - Efficient execution and functional composition of database calls using JDBC and RxJava Observables.
 * [SQLDelight](https://github.com/square/sqldelight) - Generates Java models from CREATE TABLE statements.
 
+### System Information
+[&uarr;](#table-of-contents)
+* [OSHI](https://github.com/oshi/oshi) - Library providing native Operating System and Hardware Information.
+
 ### Telephony
 [&uarr;](#table-of-contents)
-* [Asterisk REST Interface](https://github.com/l3nz/ari4java) -  [Asterisk](https://www.asterisk.org/) ARI interface bindings for Java.
+* [Asterisk REST Interface](https://github.com/l3nz/ari4java) - [Asterisk](https://www.asterisk.org/) ARI interface bindings for Java.
 * [Twilio Java](https://github.com/twilio/twilio-java) - Way to go if you up to SMS and calling automation. But be ready to pay.
 * [Libphone Number](https://github.com/googlei18n/libphonenumber) - Google's common Java, C++ and JavaScript library for parsing, formatting, and validating international phone numbers.
 
-### Text Utilities
-[&uarr;](#table-of-contents)
-* [Apache Commons Text](https://github.com/apache/commons-text) - Collection of utils for working with strings. May be a little bit unexpected library in this list, but in almost every project I've seen there is own string utilities collection doing mostly same things.
-* [JUnidecode](https://github.com/gcardone/junidecode) - Pretty useful library for handling text in exotic locales.
-
 ### Test Data
 [&uarr;](#table-of-contents)
+* [Beanmother](https://github.com/keepcosmos/beanmother) - A library for setting up Java objects as test data.
 * [Fabricator](https://github.com/azakordonets/fabricator) - Fake data generator.
+* [Fixture Factory](https://github.com/six2six/fixture-factory) - Library helping to build and organize fake objects for unit tests.
 * [Java Faker](https://github.com/DiUS/java-faker) - Another useful library for fake Test Data generation.
 * [SecLists](https://github.com/danielmiessler/SecLists) - Security tester's companion. It's a collection of multiple types of lists used during security assessments, collected in one place. Check big list of naughty strings!
 * [Randomized Testing](https://github.com/randomizedtesting/randomizedtesting) - Library for injecting reproducible random data to unit tests. Heavily used by [Elastic](https://www.elastic.co/guide/en/elasticsearch/reference/current/randomized-testing.html) for ElasticSearch testing.
 
-### xUnit Framework
+### Test Reporting
+[&uarr;](#table-of-contents)
+* [Allure 2](https://github.com/allure-framework/allure2) - Test reports. Good looking, flexible and easy to use. Easily integrates with most of the  popular testing frameworks. Lots of plugins. Looking forward to see a third version. Any bets it will be released at all?
+* [Allure Java](https://github.com/allure-framework/allure-java) - Collection of small libraries (most of them contains just a single class) to integrate Allure with popular Java frameworks.
+* [Report Portal](https://github.com/reportportal/reportportal) - Great solution for aggregating all your test run results into single highly customizable dashboard. Provides good insight on how automated testing projects are doing under the hood. Requires stand-alone server, installs as a group of dockerized microservices.
+* [Scott Test Reporter](https://github.com/dodie/scott) - Scott provides detailed failure messages for tests written in Java.
+* [Zafira](https://github.com/qaprosoft/zafira) - Yet another test reporting solution. Haven't tried it myself yet, but project looks promising.
+
+### Test Runners
 [&uarr;](#table-of-contents)
 * [JUnit4](https://github.com/junit-team/junit4) - Good old JUnit. In general there is no big difference at the moment which one to choose - JUnit4, JUnit or TestNG. Mostly it's a matter of taste.
 * [JUnitParams](https://github.com/Pragmatists/JUnitParams) - JUnit4 extension for creating parameterised tests.
@@ -296,14 +325,23 @@
 * [Mastering JUnit5](https://github.com/bonigarcia/mastering-junit5) - Collection of code examples displaying how to use new JUnit5 features.
 * [Test Data Supplier](https://github.com/sskorol/test-data-supplier) - Extended version of TestNG DataProvider.
 
+### Unit Testing
+[&uarr;](#table-of-contents)
+* [Fake Time](https://github.com/faketime-java/faketime) - Library for faking time in unit tests.
+* [EqualsVerifier](https://github.com/jqno/equalsverifier) - EqualsVerifier can be used in Java unit tests to verify whether the contract for the equals and hashCode methods is met.
+* [EvoSuite](https://github.com/EvoSuite/evosuite) - EvoSuite - automated generation of JUnit test suites for Java classes. Allows to quickly increase code coverage.
+* [Open Pojo](https://github.com/OpenPojo/openpojo) - Library for bulk POJOs structure validation. Getters, setters etc.
+
+### Utilities
+[&uarr;](#table-of-contents)
+* [Apache Commons Text](https://github.com/apache/commons-text) - Collection of utils for working with strings. May be a little bit unexpected library in this list, but in almost every project I've seen there is own string utilities collection doing mostly same things.
+* [Java Utils](https://github.com/jdereg/java-util) - Collection of utility methods to work with URLs, execute System commands, compare graphs etc.
+* [JUnidecode](https://github.com/gcardone/junidecode) - Pretty useful library for handling text in exotic locales.
+
 ### WebDriver
 [&uarr;](#table-of-contents)
 * [Selenide](https://github.com/codeborne/selenide) - Best UI testing library. Period. Technically it's a wrapper over Selenium, but who writes tests using pure Selenium nowadays? Check [wiki](https://github.com/codeborne/selenide/wiki/Selenide-vs-Selenium) for general comparison.
 * [Selenium](https://github.com/SeleniumHQ/selenium) - Testing framework for web applications. Understanding how it works is a must since it's under the hood in almost all modern UI testing libraries, but keep in mind that writing tests with pure Selenium will be much slower because of the boilerplate.
-* [Selenoid](https://github.com/aerokube/selenoid) - Modern library for running browsers within containers, Selenium Hub successor.
-* [Selenoid UI](https://github.com/aerokube/selenoid-ui) - Graphical user interface for Selenoid project.
-* [Go Grid Router](https://github.com/aerokube/ggr) - Load balancer for Selenium clusters.
-* [WebDriver Manager](https://github.com/bonigarcia/webdrivermanager) - Automatic management of Selenium WebDriver binaries. NB: If you are using Selenide - don't bother looking at this library, it's already included under the hood.
 * [Browsermob Proxy](https://github.com/lightbody/browsermob-proxy) - Utility to help web developers watch and manipulate network traffic from their AJAX applications. NB: In scope of UI tests since version [4.11](http://selenide.org/2018/04/02/selenide-4.11/) it's possible to use Selenide own proxy which is using Browsermob under the hood.
 * [Video Recorder Java](https://github.com/SergeyPirogov/video-recorder-java) - Library for UI test execution process video recording. Just add some annotations, simple as that.
 
@@ -311,6 +349,7 @@
 [&uarr;](#table-of-contents)
 - [JAXB Converter](https://github.com/square/retrofit/tree/master/retrofit-converters/jaxb) - Retrofit Converter for serialization to and from XML.
 - [XML Unit](https://github.com/xmlunit/xmlunit) - XML testing library.
+- [Xstream](https://github.com/x-stream/xstream) - Library for serializing Java objects to XML and back. 
 
 &nbsp;
 
