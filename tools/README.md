@@ -21,9 +21,11 @@
   	- [IDE](#ide)
   	- [IntelliJ Plugins](#intellij-plugins)
   	- [JSON](#json)
+  	- [HTTP](#http)
   	- [Logging](#logging)
   	- [Mobile](#mobile)
   	- [Performance Testing](#performance-testing)
+  	- [Profiling](#profiling)
   	- [Remote Management](#remote-management)
   	- [Team Collaboration](#team-collaboration)
   	- [Testing](#testing)
@@ -76,6 +78,7 @@
 ### Code Quality
 [&uarr;](#table-of-contents)
 * [Diffy](https://github.com/twitter/diffy) - Tool for finding potential bugs by running old and new code versions side by side.
+* [Infer](https://github.com/facebook/infer) - A static analyzer for Java, C, C++, and Objective-C by Facebook.
 * [SonarQube](https://github.com/SonarSource/sonarqube) - Continuous quality inspection.
 * [SonarCloud](https://sonarcloud.io) - Basically, SonarQube as a service. Free for open source projects.
 
@@ -104,7 +107,7 @@
 [&uarr;](#table-of-contents)
 * [Git](https://github.com/git/git) - Obviously should be in the list.
 * [Sourcetree](https://www.sourcetreeapp.com/) - Convenient VCS client from Atlassian with git, subversion (via git-svn) and mercurial support. Configuration for work with hosted GitLab instance can be a little bit tricky.
-* [GitKraken](https://www.gitkraken.com/) - Awesome VCS client. Hosted GitLab repositories are supported in paid version only.
+* [GitKraken](https://www.gitkraken.com/) - Awesome VCS client. NB: Hosted GitLab repositories are supported in paid version only.
 
 ### Goodies
 [&uarr;](#table-of-contents)
@@ -141,6 +144,10 @@
 [&uarr;](#table-of-contents)
 * [Json Schema 2 Pojo](https://github.com/joelittlejohn/jsonschema2pojo) - Extremely useful tool for quickly consuming an API. Just copy and [paste](http://www.jsonschema2pojo.org/) response, get Java class, attach convertor (like Moshi for example) and get an object on a next Retrofit call.
 
+### HTTP
+[&uarr;](#table-of-contents)
+* [HTTP Status](http://httpstat.us/) - Simple service for generating different HTTP response codes. Can be useful for quick scripts validation.
+
 ### Logging
 [&uarr;](#table-of-contents)
 * [LogViewer](https://github.com/satyagraha/logviewer) - Browser based client for reading logs from most commonly used web servers.
@@ -162,6 +169,11 @@
 [&uarr;](#table-of-contents)
 * [Gatling](https://github.com/gatling/gatling) - Popular tool for Performance testing. Written in Scala. Read "The Art Of Destroying Your App With Gatling" blog [post](https://gatling.io/2018/03/07/the-art-of-destroying-your-web-app/) on official website.
 * [Yellow Lab Tools](https://github.com/gmetais/YellowLabTools/) - Great open source tool for auditing web pages.
+
+### Profiling
+[&uarr;](#table-of-contents)
+* [FlameViewer](https://github.com/kornilova-l/FlameViewer) - Tool for Flame Graphs visualization and Java instrumentation profiler (for IntelliJ IDEA).
+* [Java Flame Graphs](https://github.com/cykl/hprof2flamegraph) - Flame Graph visualization for Java (HPROF, Honest-profiler). More information about Flame Graphs can be found [here](http://www.brendangregg.com/flamegraphs.html).
 
 ### Remote Management
 [&uarr;](#table-of-contents)
