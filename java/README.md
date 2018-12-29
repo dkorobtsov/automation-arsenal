@@ -80,6 +80,7 @@
 * [Java Hamcrest](https://github.com/hamcrest/JavaHamcrest) - Popular matchers library.
 
 ### API Testing
+[&uarr;](#table-of-contents)
 * [Karate](https://github.com/intuit/karate) - Cucumber-based web services testing tool. 
 * [REST-assured](https://github.com/rest-assured/rest-assured) - Most popular library for REST services testing. Personally however, I prefer Retrofit / OkHttp / Moshi / AssertJ combination.
 
@@ -129,7 +130,7 @@
 * [Config](https://github.com/lightbend/config) - A type-safe configuration library for JVM languages.
 * [Owner](https://github.com/lviggiano/owner) - Convenient library for properties handling. Greatly reduces boilerplate.
 
-### Dependency
+### Dependency Injection
 [&uarr;](#table-of-contents)
 * [Dagger 2](https://github.com/google/dagger) - Modern and fast DI framework. Can be pretty [useful](https://medium.com/@fabioCollini/android-testing-using-dagger-2-mockito-and-a-custom-junit-rule-c8487ed01b56) for unit testing.
 * [DaggerMock](https://github.com/fabioCollini/DaggerMock) - A JUnit rule to easily override Dagger 2 objects.
@@ -207,7 +208,7 @@
 * [Slf4j](https://github.com/qos-ch/slf4j) - Simple Logging Facade for Java
 * [Tinylog](https://github.com/pmwmedia/tinylog) - Minimalistic logging framework for Java and Android.
 
-### Localization
+### Localisation
 [&uarr;](#table-of-contents)
 * [Language Detector](https://github.com/optimaize/language-detector) - Library taking text as an input and returning language it was written in. Should admit returns quite a lot of false positives for short strings, but still - extremely useful for fast localization checks.
 * [Languagetool](https://github.com/languagetool-org/languagetool) - Style and Grammar Checker supporting 25+ Languages. Check official [docs](https://languagetool.org/dev) for usage details.
