@@ -15,6 +15,7 @@
   	- [Framework](#framework)
   	- [JSON](#json)
   	- [HowTo](#howto)
+  	- [HTML](#html)
   	- [HTTP](#http)
   	- [Language extensions](#language-extensions)
   	- [Mocking](#mocking)
@@ -25,6 +26,7 @@
   	- [SQL](#sql)
   	- [Reactive](#reactive)
   	- [WebDriver](#webdriver)
+  	- [WebSockets](#websockets)
   - [Tools](https://github.com/dkorobtsov/automation-arsenal/tree/master/tools#table-of-contents)
   - [Cheat Sheets](https://github.com/dkorobtsov/automation-arsenal/tree/master/resources#cheat-sheets)
   - [Reading](https://github.com/dkorobtsov/automation-arsenal/tree/master/resources#reading)
@@ -48,6 +50,7 @@
 [&uarr;](#table-of-contents)
 * [Detekt](https://github.com/arturbosch/detekt) - Static code analysis for Kotlin.
 * [KtLint](https://github.com/shyiko/ktlint) - Linter for Kotlin projects.
+* [Gradle Code Quality Tools Plugin](https://github.com/vanniktech/gradle-code-quality-tools-plugin) - Gradle plugin generating ErrorProne, Findbugs, Checkstyle, PMD, CPD, Lint, Detekt & Ktlint Tasks for every subproject.
 
 ### Configuration and Properties
 [&uarr;](#table-of-contents)
@@ -72,6 +75,10 @@
 ### HowTo
 [&uarr;](#table-of-contents)
 * [GOF in Kotlin](https://github.com/lmller/gof-in-kotlin) - Most popular design pattern examples in Kotlin.
+
+### HTML
+[&uarr;](#table-of-contents)
+* [Kotlinx.html](https://github.com/Kotlin/kotlinx.html) - Kotlin DSL for HTML
 
 ### HTTP
 [&uarr;](#table-of-contents)
@@ -112,11 +119,13 @@
 [&uarr;](#table-of-contents)
 * [RxTest](https://github.com/RubyLichtenstein/RxTest) - Kotlin DSL for easier RxJava testing.
 
-
-
 ### WebDriver
 [&uarr;](#table-of-contents)
 * [Kirk](https://github.com/SergeyPirogov/kirk) - Selenium wrapper written in Kotlin.
+
+### WebSockets
+[&uarr;](#table-of-contents)
+- [Scarlet](https://github.com/Tinder/Scarlet) - A Retrofit inspired WebSocket client by Tinder for Kotlin, Java, and Android.
 
 &nbsp;
 
