@@ -10,12 +10,14 @@
   	- [API](#api)
   	- [Build Tools](#build-tools)
   	- [Artifacts Handling](#artifacts-handling)
+  	- [Certificates](#certificates)
   	- [CI / CD](#ci--cd)
   	- [Code Coverage](#code-coverage)
   	- [Code Quality](#code-quality)
   	- [Console](#console)
   	- [Chrome Extensions](#chrome-extensions)
   	- [Containers](#containers)
+  	- [ElasticSearch](#elk)
   	- [Git](#git)
   	- [Goodies](#goodies)
   	- [IDE](#ide)
@@ -23,12 +25,15 @@
   	- [JSON](#json)
   	- [HTTP](#http)
   	- [Logging](#logging)
+  	- [Mail](#mail)
   	- [Mobile](#mobile)
   	- [Performance Testing](#performance-testing)
   	- [Profiling](#profiling)
+  	- [Provisioning](#provisioning)
   	- [Remote Management](#remote-management)
   	- [Team Collaboration](#team-collaboration)
   	- [Testing](#testing)
+  	- [Triggers](#triggers)
   - [Cheat Sheets](https://github.com/dkorobtsov/automation-arsenal/tree/master/resources#cheat-sheets)
   - [Reading](https://github.com/dkorobtsov/automation-arsenal/tree/master/resources#reading)
   - [Events](https://github.com/dkorobtsov/automation-arsenal/tree/master/resources#events)
@@ -43,6 +48,7 @@
 * [Google API Explorer](https://developers.google.com/apis-explorer/#p/) - Explorer for APIs provided by Google.
 * [Swagger](https://swagger.io/) - Way to go when designing API.
 * [Swagger Code Generator](https://github.com/swagger-api/swagger-codegen) - Tool to generate API clients and server stubs in different languages by parsing OpenAPI / Swagger definition.
+* [Open Api Generator](https://github.com/OpenAPITools/openapi-generator) - Community fork of Swagger Codegen. Not a big difference at the moment, but this one looks more promising.
 * [Postman](https://www.getpostman.com/) One of the best tools available for working with API.
 * [Programmable Web](https://www.programmableweb.com/apis/directory) - Largest API Directory on the Web. To answer typical question - if there are any sandboxes for API testing practice. Any public API will do. :)
 
@@ -50,6 +56,7 @@
 [&uarr;](#table-of-contents)
 * [Gradle](https://gradle.org/) - New projects tend to use Gradle. Flexible configuration DSL.
 * [Maven](https://maven.apache.org/) - Most widely used build tool at the moment.
+* [Mainframer](https://github.com/buildfoundation/mainframer) - Tool for remote builds. Sync project to remote machine, execute command, sync back.
 
 ### Artifacts Handling
 [&uarr;](#table-of-contents)
@@ -58,13 +65,17 @@
 * [Gradle, Please](https://gradleplease.appspot.com/#selenide) - Nice little tool to search for Gradle dependencies.
 * [Maven Central](http://search.maven.org/) - Search engine for Maven Central repository.
 
+### Certificates
+[&uarr;](#table-of-contents)
+* [Mkcert](https://github.com/FiloSottile/mkcert) - A simple zero-config tool to make locally trusted development certificates with any names you'd like.
+
 ### CI / CD
 [&uarr;](#table-of-contents)
-* [Ansible](https://github.com/ansible/ansible) - IT automation system. Handles configuration-management, application deployment, cloud provisioning, ad-hoc task-execution, and multinode orchestration.
-* [Ansible Semaphore](https://github.com/ansible-semaphore/semaphore) - Open source Web UI solution for launching Ansible tasks.
-* [Fastlane](https://github.com/fastlane/fastlane) - The easiest way to automate building and releasing  iOS and Android apps.
+* [Fastlane](https://github.com/fastlane/fastlane) - The easiest way to automate building and releasing iOS and Android apps.
+* [Gaia](https://github.com/gaia-pipeline/gaia) - Tool for building pipelines in any programming language. Currently Alpha, but makes sense to keep it on watchlist.
 * [Hygieia](https://github.com/capitalone/Hygieia) - Customizable DevOps console - to put all data like Static Code Analysis, Unit and E2E test results, Deployment status etc. in one place.
 * [Jenkins](https://jenkins.io/) - Most popular CI Server at the moment.
+* [Jenkins Job DSL plugin](https://github.com/jenkinsci/job-dsl-plugin) - A Groovy DSL for Jenkins Jobs.
 * [Rultor](https://github.com/yegor256/rultor) - Code merging bot.
 * [Snyk](https://github.com/snyk/snyk) - CLI and build-time tool to find & fix known vulnerabilities in open-source dependencies
 * [Travis CI](https://travis-ci.org/) - Out of the box CI solution for GitHub hosted projects.
@@ -77,6 +88,7 @@
 
 ### Code Quality
 [&uarr;](#table-of-contents)
+* [AET](https://github.com/Cognifide/aet) - Automated Exploratory Testing - detects changes on web sites and performs basic page health check. Haven't tried it myself yet, but looks interesting.
 * [Diffy](https://github.com/twitter/diffy) - Tool for finding potential bugs by running old and new code versions side by side.
 * [Infer](https://github.com/facebook/infer) - A static analyzer for Java, C, C++, and Objective-C by Facebook.
 * [SonarQube](https://github.com/SonarSource/sonarqube) - Continuous quality inspection.
@@ -98,10 +110,22 @@
 * [ChroPath](https://chrome.google.com/webstore/detail/chropath/ljngjbnaijcbncmcnjfhigebomdlkcjo?hl=en) - Chrome Dev panel extension for working with Selenium locators. Pretty useful.
 * [Jedi](https://github.com/sbtqa/Jedi) - Chrome plugin for Page Objects auto generation.
 * [Json Viewer](https://github.com/tulios/json-viewer) - Convenient Chrome extension for printing JSON files.
+* [OctoLinker](https://github.com/OctoLinker/OctoLinker) - Converts language-specific module-loading statements like include, require or import into links.
+* [OctoTree](https://github.com/ovity/octotree) - Adds easy to use navigation to Github. Must have for open source contributors.
 
 ### Containers
 [&uarr;](#table-of-contents)
 * [Docker](https://www.docker.com/) - De facto standard for apps execution in containers.
+* [Dive](https://github.com/wagoodman/dive) - A tool for exploring a Docker image, layer contents, and discovering ways to shrink image size.
+* [Kubernetes](https://github.com/kubernetes/kubernetes) - Production-Grade Container Scheduling and Management.
+* [Kubernetes clusters for the hobbyist](https://github.com/hobby-kube/guide) - This guide answers the question of how to setup and operate a fully functional, secure Kubernetes cluster on a cloud provider such as Hetzner Cloud, DigitalOcean or Scaleway. 
+* [Minicube](https://github.com/kubernetes/minikube) - Tool that makes it easy to run Kubernetes locally.
+
+### ELK
+[&uarr;](#table-of-contents)
+* [Beats](https://github.com/elastic/beats) - Lightweight shippers for sending operational data to Elasticsearch, either directly or via Logstash, so it can be visualized with Kibana.
+* [Logstash](https://github.com/elastic/logstash) - Part of ELK (ElasticSearch, Logstash, Kibana) logging stack, responsible for transport part.
+* [Kibana](https://github.com/elastic/kibana) - Search and Analytics Dashboard for ElasticSearch. 
 
 ### Git
 [&uarr;](#table-of-contents)
@@ -152,6 +176,10 @@
 [&uarr;](#table-of-contents)
 * [LogViewer](https://github.com/satyagraha/logviewer) - Browser based client for reading logs from most commonly used web servers.
 
+### Mail
+[&uarr;](#table-of-contents)
+* [Inbucket](https://github.com/jhillyerd/inbucket) - Email testing service; it will accept messages for any email address and make them available via web, REST and POP3.
+
 ### Mobile
 [&uarr;](#table-of-contents)
 * [Appium Docker Android](https://github.com/appium/appium-docker-android) - Installing Appium environment (especially for a first time) is a little bit over-complicated. Alternative solution is to use pre-configured docker container.
@@ -168,12 +196,25 @@
 ### Performance Testing
 [&uarr;](#table-of-contents)
 * [Gatling](https://github.com/gatling/gatling) - Popular tool for Performance testing. Written in Scala. Read "The Art Of Destroying Your App With Gatling" blog [post](https://gatling.io/2018/03/07/the-art-of-destroying-your-web-app/) on official website.
+* [Gatling Gradle plugin](https://github.com/lkishalmi/gradle-gatling-plugin) - Gatling Plugin for Gradle.
+* [Yandex Tank](https://github.com/yandex/yandex-tank) - Load and performance benchmark tool from Yandex (includes backend analytics services: [Overload](https://overload.yandex.net/login/?next=/)).
 * [Yellow Lab Tools](https://github.com/gmetais/YellowLabTools/) - Great open source tool for auditing web pages.
+* [k6](https://github.com/loadimpact/k6) - Another popular load testing tool, using Go and JavaScript.
+* [Locust](https://github.com/locustio/locust) - Scalable user load testing tool written in Python.
+* [wrk](https://github.com/wg/wrk) - Modern HTTP benchmarking tool.
 
 ### Profiling
 [&uarr;](#table-of-contents)
 * [FlameViewer](https://github.com/kornilova-l/FlameViewer) - Tool for Flame Graphs visualization and Java instrumentation profiler (for IntelliJ IDEA).
 * [Java Flame Graphs](https://github.com/cykl/hprof2flamegraph) - Flame Graph visualization for Java (HPROF, Honest-profiler). More information about Flame Graphs can be found [here](http://www.brendangregg.com/flamegraphs.html).
+
+### Provisioning
+* [Ansible](https://github.com/ansible/ansible) - IT automation system. Handles configuration-management, application deployment, cloud provisioning, ad-hoc task-execution, and multinode orchestration.
+* [Ansible Best Practices](https://github.com/enginyoyen/ansible-best-practises) - A project structure that outlines some best practises of using Ansible
+* [Ansible Semaphore](https://github.com/ansible-semaphore/semaphore) - Open source Web UI solution for launching Ansible tasks.
+* [Ansible Examples](https://github.com/ansible/ansible-examples) - A few starter examples of Ansible playbooks, to show features and how they work together.
+* [Terraform](https://github.com/hashicorp/terraform) - Terraform is a tool for building, changing, and versioning infrastructure safely and efficiently.
+* [Vagrant](https://github.com/hashicorp/vagrant) - Vagrant is a tool for building and distributing development environments.
 
 ### Remote Management
 [&uarr;](#table-of-contents)
@@ -187,8 +228,12 @@
 ### Testing
 [&uarr;](#table-of-contents)
 * [HAR Viewer](http://www.softwareishard.com/blog/har-viewer/) - Online tool for HTTP Archive files visualization
-* [XPath Generation](http://xpathify.herokuapp.com/) - Small web utility for XPath generation.
 * [UI Testing Playground](https://the-internet.herokuapp.com/) - Good for practicing UI automation techniques.
+
+### Triggers
+[&uarr;](#table-of-contents)
+* [Huginn](https://github.com/huginn/huginn) - Create agents that monitor and act on your behalf. Hackable self-hosted version of IFTTT on Steroids.
+* [StackStorm](https://github.com/StackStorm/st2) - Aka "IFTTT for Ops". StackStorm is a platform for integration and automation across services and tools with a particular focus on taking actions in response to events.
 
 &nbsp;
 
