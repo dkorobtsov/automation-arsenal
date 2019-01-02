@@ -71,7 +71,6 @@
 * [Google Testing Blog](https://testing.googleblog.com/) - Google Testing Blog. Quite a few updates recently, but in general lots of useful ideas. In general makes also sense to read "[How Google Tests Software](https://books.google.com/books/about/How_Google_Tests_Software.html?id=vHlTOVTKHeUC)" - some ideas are really useful.
 * [Java 8 Tutorial](https://github.com/winterbe/java8-tutorial) - Pretty good guide for Java 8 features.
 * [Practical Test Pyramid](https://martinfowler.com/articles/practical-test-pyramid.html) - All test pyramid layers explained with examples.
-* [Software Testing Anti-patterns](http://blog.codepipes.com/testing/software-testing-antipatterns.html) - Just good article. Makes sense to read.
 * [Test Smells](http://xunitpatterns.com/Test%20Smells.html) - Parts of the book xUnit Test Patterns. Most of the presentations explaining bad test design are just an illustration of this list.
 * [Useful Java Links](https://github.com/Vedenin/useful-java-links) - A list of useful Java frameworks, libraries, software and hello worlds examples.
 * [Yegor's Blog](https://www.yegor256.com/) - Always a good read.
