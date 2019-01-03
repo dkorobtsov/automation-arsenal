@@ -8,6 +8,7 @@
   - [Kotlin Libraries](https://github.com/dkorobtsov/automation-arsenal/tree/master/kotlin#table-of-contents)
   - [Tools](#tools)
   	- [API](#api)
+  	- [API Testing](#api-testing)
   	- [Build Tools](#build-tools)
   	- [Artifacts Handling](#artifacts-handling)
   	- [Certificates](#certificates)
@@ -31,9 +32,10 @@
   	- [Profiling](#profiling)
   	- [Provisioning](#provisioning)
   	- [Remote Management](#remote-management)
+  	- [Test Reporting](#test-reporting)
   	- [Team Collaboration](#team-collaboration)
-  	- [Testing](#testing)
   	- [Triggers](#triggers)
+  	- [Web Testing](#web-testing)
   - [Cheat Sheets](https://github.com/dkorobtsov/automation-arsenal/tree/master/resources#cheat-sheets)
   - [Reading](https://github.com/dkorobtsov/automation-arsenal/tree/master/resources#reading)
   - [Events](https://github.com/dkorobtsov/automation-arsenal/tree/master/resources#events)
@@ -47,10 +49,14 @@
 [&uarr;](#table-of-contents)
 * [Google API Explorer](https://developers.google.com/apis-explorer/#p/) - Explorer for APIs provided by Google.
 * [Swagger](https://swagger.io/) - Way to go when designing API.
+* [Programmable Web](https://www.programmableweb.com/apis/directory) - Largest API Directory on the Web. To answer typical question - if there are any sandboxes for API testing practice. Any public API will do. :)
+
+### API Testing
+[&uarr;](#table-of-contents)
 * [Swagger Code Generator](https://github.com/swagger-api/swagger-codegen) - Tool to generate API clients and server stubs in different languages by parsing OpenAPI / Swagger definition.
 * [Open Api Generator](https://github.com/OpenAPITools/openapi-generator) - Community fork of Swagger Codegen. Not a big difference at the moment, but this one looks more promising.
 * [Postman](https://www.getpostman.com/) One of the best tools available for working with API.
-* [Programmable Web](https://www.programmableweb.com/apis/directory) - Largest API Directory on the Web. To answer typical question - if there are any sandboxes for API testing practice. Any public API will do. :)
+* [All things Postman](https://github.com/DannyDainton/All-Things-Postman) - Api testing with Postman - quick start with examples.
 
 ### Build Tools
 [&uarr;](#table-of-contents)
@@ -141,7 +147,7 @@
 * [Kali](https://www.kali.org/) - Linux distribution with pre-installed collection of pentesting tools.
 * [Phone Number Parser](https://libphonenumber.appspot.com/) - Small utility for phone numbers validation. Utilizing [Libphonenumber](https://github.com/googlei18n/libphonenumber) library.
 * [Shodan](https://www.shodan.io/) - Search engine for Internet of Things. Never know you can find.
-* [Sourcerer App](https://github.com/sourcerer-io/sourcerer-app) - Developer profile generation tool. Consumes git or GitHub repositories and returns full overview of languages and technologies used.
+* [Sourcerer App](https://github.com/sourcerer-io/sourcerer-app) - Developer profile generation tool. Consumes git or GitHub repositories and returns full overview of languages and technologies used. Check [example](https://sourcerer.io/dkorobtsov).
 * [Toggl](https://toggl.com/) - Excellent time management tool.
 * [Zuppit](https://zuppit.co.uk/) - Free tool for website availability monitoring.
 
@@ -216,6 +222,12 @@
 * [Terraform](https://github.com/hashicorp/terraform) - Terraform is a tool for building, changing, and versioning infrastructure safely and efficiently.
 * [Vagrant](https://github.com/hashicorp/vagrant) - Vagrant is a tool for building and distributing development environments.
 
+### Test Reporting
+[&uarr;](#table-of-contents)
+* [Allure 2](https://github.com/allure-framework/allure2) - Test reports. Good looking, flexible and easy to use. Easily integrates with most of the  popular testing frameworks. Lots of plugins. Looking forward to see a third version. Any bets it will be released at all?
+* [Report Portal](https://github.com/reportportal/reportportal) - Great solution for aggregating all your test run results into single highly customizable dashboard. Provides good insight on how automated testing projects are doing under the hood. Requires stand-alone server, installs as a group of dockerized microservices.
+* [Zafira](https://github.com/qaprosoft/zafira) - Yet another test reporting solution. Haven't tried it myself yet, but project looks promising.
+
 ### Remote Management
 [&uarr;](#table-of-contents)
 * [Royal TS](https://www.royalapplications.com/ts/mac/features) - Awesome Remote Management Solution. Supports RDC, SSH, FTP etc. Free to use for up to 10 connections.
@@ -225,15 +237,15 @@
 * [Instant Terminal Sharing](https://tmate.io/) - Can be useful in certain situations.
 * [Recordit](http://recordit.co/) - Nice little tool for recording and sharing screencasts.
 
-### Testing
-[&uarr;](#table-of-contents)
-* [HAR Viewer](http://www.softwareishard.com/blog/har-viewer/) - Online tool for HTTP Archive files visualization
-* [UI Testing Playground](https://the-internet.herokuapp.com/) - Good for practicing UI automation techniques.
-
 ### Triggers
 [&uarr;](#table-of-contents)
 * [Huginn](https://github.com/huginn/huginn) - Create agents that monitor and act on your behalf. Hackable self-hosted version of IFTTT on Steroids.
 * [StackStorm](https://github.com/StackStorm/st2) - Aka "IFTTT for Ops". StackStorm is a platform for integration and automation across services and tools with a particular focus on taking actions in response to events.
+
+### Web Testing
+[&uarr;](#table-of-contents)
+* [HAR Viewer](http://www.softwareishard.com/blog/har-viewer/) - Online tool for HTTP Archive files visualization
+* [UI Testing Playground](https://the-internet.herokuapp.com/) - Good for practicing UI automation techniques.
 
 &nbsp;
 
