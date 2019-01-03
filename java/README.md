@@ -354,11 +354,9 @@
 
 ### Test Reporting
 [&uarr;](#table-of-contents)
-* [Allure 2](https://github.com/allure-framework/allure2) - Test reports. Good looking, flexible and easy to use. Easily integrates with most of the  popular testing frameworks. Lots of plugins. Looking forward to see a third version. Any bets it will be released at all?
-* [Allure Java](https://github.com/allure-framework/allure-java) - Collection of small libraries (most of them contains just a single class) to integrate Allure with popular Java frameworks.
-* [Report Portal](https://github.com/reportportal/reportportal) - Great solution for aggregating all your test run results into single highly customizable dashboard. Provides good insight on how automated testing projects are doing under the hood. Requires stand-alone server, installs as a group of dockerized microservices.
+* [Allure Java](https://github.com/allure-framework/allure-java) - Collection of small libraries (most of them contains just a single class) to integrate Allure Reports with popular Java frameworks.
 * [Scott Test Reporter](https://github.com/dodie/scott) - Scott provides detailed failure messages for tests written in Java.
-* [Zafira](https://github.com/qaprosoft/zafira) - Yet another test reporting solution. Haven't tried it myself yet, but project looks promising.
+* [See more in Tools section >>]((https://github.com/dkorobtsov/automation-arsenal/tree/master/tools#test-reporting))
 
 ### Test Runners
 [&uarr;](#table-of-contents)
