@@ -46,7 +46,7 @@
 
 ### Build
 [&uarr;](#table-of-contents)
-* [Kotlin DSL](https://github.com/gradle/kotlin-dsl) - Kotlin language support for Gradle build scripts. Looks promising, but at the moment for evaluation purposes only.
+* [Kotlin DSL](https://github.com/gradle/kotlin-dsl) - Kotlin language support for Gradle build scripts.
 
 ### Code Quality
 [&uarr;](#table-of-contents)
@@ -89,7 +89,7 @@
 
 ### HTML
 [&uarr;](#table-of-contents)
-* [Kotlinx.html](https://github.com/Kotlin/kotlinx.html) - Kotlin DSL for HTML
+* [Kotlinx.html](https://github.com/Kotlin/kotlinx.html) - Kotlin DSL for HTML.
 
 ### HTTP
 [&uarr;](#table-of-contents)
