@@ -18,6 +18,7 @@
   	- [Console](#console)
   	- [Chrome Extensions](#chrome-extensions)
   	- [Containers](#containers)
+  	- [Database](#database)
   	- [ElasticSearch](#elk)
   	- [Git](#git)
   	- [Goodies](#goodies)
@@ -28,11 +29,13 @@
   	- [Logging](#logging)
   	- [Mail](#mail)
   	- [Mobile](#mobile)
+  	- [Monitoring](#monitoring)
   	- [Performance Testing](#performance-testing)
   	- [Profiling](#profiling)
   	- [Provisioning](#provisioning)
   	- [Remote Management](#remote-management)
   	- [Test Reporting](#test-reporting)
+  	- [Test Data](#test-data)
   	- [Team Collaboration](#team-collaboration)
   	- [Triggers](#triggers)
   	- [Web Testing](#web-testing)
@@ -122,16 +125,23 @@
 ### Containers
 [&uarr;](#table-of-contents)
 * [Docker](https://www.docker.com/) - De facto standard for apps execution in containers.
+* [Docker Traffic Control](https://github.com/lukaszlach/docker-tc) - Network rate limiting, emulating delays, losses, duplicates, corrupts and reorders of network packets using only container labels or a command-line interface.
 * [Dive](https://github.com/wagoodman/dive) - A tool for exploring a Docker image, layer contents, and discovering ways to shrink image size.
 * [Kubernetes](https://github.com/kubernetes/kubernetes) - Production-Grade Container Scheduling and Management.
 * [Kubernetes clusters for the hobbyist](https://github.com/hobby-kube/guide) - This guide answers the question of how to setup and operate a fully functional, secure Kubernetes cluster on a cloud provider such as Hetzner Cloud, DigitalOcean or Scaleway. 
 * [Minicube](https://github.com/kubernetes/minikube) - Tool that makes it easy to run Kubernetes locally.
 
+### Database
+[&uarr;](#table-of-contents)
+* [FlyWay](https://github.com/flyway/flyway) - Database Migrations Made Easy.
+* [Liquibase](https://github.com/liquibase/liquibase) - Basically Source Code Control for Databases.
+
 ### ELK
 [&uarr;](#table-of-contents)
 * [Beats](https://github.com/elastic/beats) - Lightweight shippers for sending operational data to Elasticsearch, either directly or via Logstash, so it can be visualized with Kibana.
 * [Logstash](https://github.com/elastic/logstash) - Part of ELK (ElasticSearch, Logstash, Kibana) logging stack, responsible for transport part.
-* [Kibana](https://github.com/elastic/kibana) - Search and Analytics Dashboard for ElasticSearch. 
+* [Kibana](https://github.com/elastic/kibana) - Search and Analytics Dashboard for ElasticSearch.
+* [Rally](https://github.com/elastic/rally) - Benchmarking framework for Elasticsearch.
 
 ### Git
 [&uarr;](#table-of-contents)
@@ -145,6 +155,8 @@
 * [Coggle](https://coggle.it/) - Convenient tool for creating mindmaps.
 * [Gif For Cli](https://github.com/google/gif-for-cli) - Library by Google for converting gifs or small videos to ASCII animations.
 * [Kali](https://www.kali.org/) - Linux distribution with pre-installed collection of pentesting tools.
+* [Logoly](https://github.com/bestony/logoly) - A Pornhub Flavour Logo Generator (easily generates website logos).
+* [Mimic](https://github.com/reinderien/mimic) - [ab]using Unicode to create tragedy (basically corrupts source code by replacing random chars with unicode analogues).
 * [Phone Number Parser](https://libphonenumber.appspot.com/) - Small utility for phone numbers validation. Utilizing [Libphonenumber](https://github.com/googlei18n/libphonenumber) library.
 * [Shodan](https://www.shodan.io/) - Search engine for Internet of Things. Never know you can find.
 * [Sourcerer App](https://github.com/sourcerer-io/sourcerer-app) - Developer profile generation tool. Consumes git or GitHub repositories and returns full overview of languages and technologies used. Check [example](https://sourcerer.io/dkorobtsov).
@@ -154,11 +166,13 @@
 ### IDE
 [&uarr;](#table-of-contents)
 * [IntelliJ IDEA](https://www.jetbrains.com/idea/download) - Best Java IDE. For testing purposes Community Edition is more then enough.
+* [Gradle IntelliJ Plugin](https://github.com/JetBrains/gradle-intellij-plugin) - Plugin for building plugins for IntelliJ IDEs. Adds several Gradle tasks simplifying IntelliJ plugins development and testing.
 
 ### IntelliJ Plugins
 [&uarr;](#table-of-contents)
 * [Advanced Java Folding](https://plugins.jetbrains.com/plugin/9320-advanced-java-folding) This plugin extends the IDE’s folding features to emulate some of these modern languages’ features helping fight verbosity. In other words - after applying this plugin you Java code will look like mix of Scala, Groovy and Kotlin.
 * [Awesome Console](https://github.com/anthraxx/intellij-awesome-console) - Open source, file and url links right from console.
+* [AWS Toolkit](https://github.com/aws/aws-toolkit-jetbrains) - AWS Toolkit for JetBrains - a plugin for interacting with AWS from JetBrains IDEs.
 * [Docker Integration](https://www.jetbrains.com/help/idea/docker.html) - Work with Docker from IDE.
 * [Grep Console](https://github.com/krasa/GrepConsole) - Convenient console logs filtering.
 * [Infinitest](https://github.com/infinitest/infinitest) - (Eclipse/IntelliJ) IDE Plugin for TDD Jedi's. Basically it detects changes in class and runs related unit tests. TDD assistant, so to say.
@@ -177,14 +191,19 @@
 ### HTTP
 [&uarr;](#table-of-contents)
 * [HTTP Status](http://httpstat.us/) - Simple service for generating different HTTP response codes. Can be useful for quick scripts validation.
+* [HTTP Bin](https://github.com/postmanlabs/httpbin) - A simple HTTP Request & Response Service. Can be useful for HTTP client testing.
+* [Bad SSL](https://badssl.com/) - Convenient service for testing various SSL certificate problems. 
 
 ### Logging
 [&uarr;](#table-of-contents)
+* [Greylog 2](https://github.com/Graylog2/graylog2-server) - Free and open source log management.
 * [LogViewer](https://github.com/satyagraha/logviewer) - Browser based client for reading logs from most commonly used web servers.
+* [Loki](https://github.com/grafana/loki) - Log aggregation system inspired by Prometheus. 
 
 ### Mail
 [&uarr;](#table-of-contents)
 * [Inbucket](https://github.com/jhillyerd/inbucket) - Email testing service; it will accept messages for any email address and make them available via web, REST and POP3.
+* [MailHog](https://github.com/mailhog/MailHog) - MailHog is an email testing tool for developers. 
 
 ### Mobile
 [&uarr;](#table-of-contents)
@@ -199,14 +218,22 @@
 * [Open STF](https://github.com/openstf/stf) - Smartphone Test Farm solution. If you don't want to use cloud services, here is on-prem solution.
 * [Test Butler](https://github.com/linkedin/test-butler) - helper tool to make Android UI testing on emulators more stable and predictable.
 
+### Monitoring
+[&uarr;](#table-of-contents)
+* [Grafana](https://github.com/grafana/grafana) - The tool for monitoring and metric analytics & dashboards for Graphite, InfluxDB & Prometheus & More
+* [Telegraf](https://github.com/influxdata/telegraf) - The plugin-driven server agent for collecting & reporting metrics. 
+
 ### Performance Testing
 [&uarr;](#table-of-contents)
 * [Gatling](https://github.com/gatling/gatling) - Popular tool for Performance testing. Written in Scala. Read "The Art Of Destroying Your App With Gatling" blog [post](https://gatling.io/2018/03/07/the-art-of-destroying-your-web-app/) on official website.
 * [Gatling Gradle plugin](https://github.com/lkishalmi/gradle-gatling-plugin) - Gatling Plugin for Gradle.
+* [Gatling Real-Time Monitoring Example](https://github.com/marufaytekin/gatling-grafana-influxdb) - Gatling real time monitoring with Grafana, InfluxDB and Graphite.
 * [Yandex Tank](https://github.com/yandex/yandex-tank) - Load and performance benchmark tool from Yandex (includes backend analytics services: [Overload](https://overload.yandex.net/login/?next=/)).
 * [Yellow Lab Tools](https://github.com/gmetais/YellowLabTools/) - Great open source tool for auditing web pages.
 * [k6](https://github.com/loadimpact/k6) - Another popular load testing tool, using Go and JavaScript.
 * [Locust](https://github.com/locustio/locust) - Scalable user load testing tool written in Python.
+* [Performance Testing Framework](https://github.com/serputko/performance-testing-framework) - Ready to use performance testing solution example.
+* [Vegeta](https://github.com/tsenart/vegeta) - HTTP load testing tool and library.
 * [wrk](https://github.com/wg/wrk) - Modern HTTP benchmarking tool.
 
 ### Profiling
@@ -222,20 +249,25 @@
 * [Terraform](https://github.com/hashicorp/terraform) - Terraform is a tool for building, changing, and versioning infrastructure safely and efficiently.
 * [Vagrant](https://github.com/hashicorp/vagrant) - Vagrant is a tool for building and distributing development environments.
 
+### Remote Management
+[&uarr;](#table-of-contents)
+* [Royal TS](https://www.royalapplications.com/ts/mac/features) - Awesome Remote Management Solution. Supports RDC, SSH, FTP etc. Free to use for up to 10 connections.
+
 ### Test Reporting
 [&uarr;](#table-of-contents)
 * [Allure 2](https://github.com/allure-framework/allure2) - Test reports. Good looking, flexible and easy to use. Easily integrates with most of the  popular testing frameworks. Lots of plugins. Looking forward to see a third version. Any bets it will be released at all?
 * [Report Portal](https://github.com/reportportal/reportportal) - Great solution for aggregating all your test run results into single highly customizable dashboard. Provides good insight on how automated testing projects are doing under the hood. Requires stand-alone server, installs as a group of dockerized microservices.
 * [Zafira](https://github.com/qaprosoft/zafira) - Yet another test reporting solution. Haven't tried it myself yet, but project looks promising.
 
-### Remote Management
-[&uarr;](#table-of-contents)
-* [Royal TS](https://www.royalapplications.com/ts/mac/features) - Awesome Remote Management Solution. Supports RDC, SSH, FTP etc. Free to use for up to 10 connections.
-
 ### Team Collaboration
 [&uarr;](#table-of-contents)
 * [Instant Terminal Sharing](https://tmate.io/) - Can be useful in certain situations.
 * [Recordit](http://recordit.co/) - Nice little tool for recording and sharing screencasts.
+
+### Test Data
+[&uarr;](#table-of-contents)
+* [GoReplay](https://github.com/buger/goreplay) - Network monitoring tool which can record live traffic, and use it for shadowing, load testing, monitoring and detailed analysis.
+* [StreamSets](https://github.com/streamsets/datacollector) - Data migration Library, but can also be used for Test Data Sets generation.
 
 ### Triggers
 [&uarr;](#table-of-contents)
@@ -244,6 +276,7 @@
 
 ### Web Testing
 [&uarr;](#table-of-contents)
+* [Selenium IDE](https://github.com/SeleniumHQ/selenium-ide) - New Life of Selenium IDE UI tests record and playback tool.
 * [HAR Viewer](http://www.softwareishard.com/blog/har-viewer/) - Online tool for HTTP Archive files visualization
 * [UI Testing Playground](https://the-internet.herokuapp.com/) - Good for practicing UI automation techniques.
 

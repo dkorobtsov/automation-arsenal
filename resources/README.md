@@ -24,6 +24,7 @@
 * [CSS Selector Reference](https://www.w3schools.com/cssref/css_selectors.asp) Must learn for UI automation.
 * [DevDocs](https://devdocs.io/) - Great collection of API documentation for most of major programming languages, databases and frameworks.
 * [DevHints](https://devhints.io/) - Search engine for cheat sheets. TL; DR for developers.
+* [Design Patterns](http://www.mcdonaldland.info/files/designpatterns/designpatternscard.pdf) - Design Patterns cheat sheet.
 * [Docker](http://files.zeroturnaround.com/pdf/zt_docker_cheat_sheet.pdf) - Docker Commands Cheat Sheet.
 * [Every Programmer Should Know](https://github.com/mtdvio/every-programmer-should-know) - A collection of (mostly) technical things every software developer should know
 * [Git](http://files.zeroturnaround.com/pdf/zt_git_cheat_sheet.pdf) - Git Commands Cheat Sheet.
@@ -35,9 +36,15 @@
 * [JVM Options](http://files.zeroturnaround.com/pdf/zt_JVM-options-cheat-sheet.pdf) JVM options Cheat Sheet.
 * [Linux Commands](https://www.loggly.com/wp-content/uploads/2015/05/Linux-Cheat-Sheet-Sponsored-By-Loggly.pdf) - Most commonly used Linux commands.
 * [Locators Cheat Sheet](http://www.cheat-sheets.org/saved-copy/Locators_table_1_0_2.pdf) - Selenium locators cheat sheet
+* [Mobile App Pentest](https://github.com/tanprathan/MobileApp-Pentest-Cheatsheet) - Mobile Application PenTesting check list.
 * [Maven](http://files.zeroturnaround.com/pdf/Maven-cheat-sheet.pdf) - Maven cheat sheet.
+* [PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings) - A list of useful payloads and bypass for Web Application Security and Pentest/CTF
+* [Periodic Table Of DevOps Tools](https://xebialabs.com/periodic-table-of-devops-tools) - DevOps tools cheat sheet.
+* [Performance Testing](https://www.stevefenton.co.uk/cmsfiles/assets/file/Performance-Testing-Cheat-Sheet.pdf) - Performance Testing cheat sheet.
 * [Regex](http://files.zeroturnaround.com/pdf/zt_regular-expressions-cheat-sheet.pdf) - Regular expressions cheat sheet.
 * [RxJava](http://files.zeroturnaround.com/pdf/zt-rxjava-cheat-sheet.pdf) - RxJava cheat sheet.
+* [Software Testing](https://openconcept.ca/sites/openconcept/files/software_testing_cheat_sheet.pdf) - Software Testing cheat sheet. Just another pyramid representation with layers explained.
+* [System Design Primer](https://github.com/donnemartin/system-design-primer) - Large-scale system design examples.
 * [SQL](http://files.zeroturnaround.com/pdf/zt_sql_cheat_sheet.pdf) - SQL cheat Sheet.
 * [Vim Visual Cheat Sheet](http://people.csail.mit.edu/vgod/vim/vim-cheat-sheet-en.png) - It's good to know how to exit vim without referring to [StackOverflow](https://stackoverflow.com/questions/11828270/how-to-exit-the-vim-editor).
 

@@ -11,7 +11,9 @@
   	- [Code Quality](#code-quality)
   	- [Configuration and Properties](#configuration-and-properties)
   	- [CLI](#cli)
+  	- [Database](#database)
   	- [Dependency Injection](#dependency-injection)
+  	- [ElasticSearch](#elasticsearch)
   	- [Framework](#framework)
   	- [JSON](#json)
   	- [HowTo](#howto)
@@ -21,10 +23,10 @@
   	- [Mocking](#mocking)
   	- [Mobile](#mobile)
   	- [Logging](#logging)
+  	- [Reactive](#reactive)
   	- [Scripting](#scripting)
   	- [Source Code Utilities](#source-code-utilities)
-  	- [SQL](#sql)
-  	- [Reactive](#reactive)
+  	- [Test Data](#test-data)
   	- [WebDriver](#webdriver)
   	- [WebSockets](#websockets)
   - [Tools](https://github.com/dkorobtsov/automation-arsenal/tree/master/tools#table-of-contents)
@@ -60,9 +62,18 @@
 [&uarr;](#table-of-contents)
 * [Clikt](https://github.com/ajalt/clikt) - Library for easy creation of CLI based applications.
 
+### Database
+[&uarr;](#table-of-contents)
+* [Exposed](https://github.com/JetBrains/Exposed) - Lightweight SQL framework from JetBrains, uses JDBC driver under the hood, supports most popular database engines (Oracle, MySql, Postgre etc).
+
 ### Dependency Injection
 [&uarr;](#table-of-contents)
 * [Koin](https://github.com/InsertKoinIO/koin) - LightWeight Dependency Injection framework. Still not sure if it makes sense to use DI in test automation unless you are into unit testing, but this library sure worth mentioning.
+
+### ElasticSearch
+[&uarr;](#table-of-contents)
+* [ES Kotlin](https://github.com/mbuhot/eskotlin) - Elasticsearch Query DSL for Kotlin.
+* [ES Kotlin Wrapper](https://github.com/jillesvangurp/es-kotlin-wrapper-client) - Basically Kotlin wrapper for ES High Level HTTP Client.
 
 ### Framework
 [&uarr;](#table-of-contents)
@@ -97,11 +108,16 @@
 ### Mobile
 [&uarr;](#table-of-contents)
 * [Kakao](https://github.com/agoda-com/Kakao) - Nice and simple DSL for Espresso in Kotlin. Allows writing Espresso tests that does not look ugly and much easier to maintain.
+* [Marathon](https://github.com/Malinskiy/marathon) - Cross-platform test runner written for Android and iOS projects.
 
 ### Logging
 [&uarr;](#table-of-contents)
 * [OkLog](https://github.com/simonpercic/OkLog) - Yet another OkHttp traffic logging interceptor. Intercepts requests and generates link to view response details in browser. Looks awesome if you don't mind leaving IDE.
 * [Kotlin Logging](https://github.com/MicroUtils/kotlin-logging) - Small Kotlin logging library. Using slf4j under the hood.
+
+### Reactive
+[&uarr;](#table-of-contents)
+* [RxTest](https://github.com/RubyLichtenstein/RxTest) - Kotlin DSL for easier RxJava testing.
 
 ### Scripting
 [&uarr;](#table-of-contents)
@@ -111,17 +127,13 @@
 [&uarr;](#table-of-contents)
 * [Kotlin Poet](https://github.com/square/kotlinpoet) - library with fluent interface for generating .kt files.
 
-### SQL
+### Test Data
 [&uarr;](#table-of-contents)
-* [Exposed](https://github.com/JetBrains/Exposed) - Lightweight SQL framework from JetBrains, uses JDBC driver under the hood, supports most popular database engines (Oracle, MySql, Postgre etc).
-
-### Reactive
-[&uarr;](#table-of-contents)
-* [RxTest](https://github.com/RubyLichtenstein/RxTest) - Kotlin DSL for easier RxJava testing.
+* [FakeIt](https://github.com/square/kotlinpoet) - Kotlin Fake Data Generator Library.
 
 ### WebDriver
 [&uarr;](#table-of-contents)
-* [Kirk](https://github.com/SergeyPirogov/kirk) - Selenium wrapper written in Kotlin.
+* [Kirk](https://github.com/SergeyPirogov/kirk) - Selenium wrapper written in Kotlin. Nice idea, but project is no longer maintained.
 
 ### WebSockets
 [&uarr;](#table-of-contents)

@@ -9,6 +9,7 @@
     - [AOP](#aop)
     - [Architecture](#architecture)
     - [Assertions](#assertions)
+    - [API](#api)
     - [API Testing](#api-testing)
     - [AWS](#aws)
     - [BDD](#bdd)
@@ -19,10 +20,13 @@
     - [Contracts](#contracts) 
     - [CLI](#cli)
     - [Configuration and Properties](#configuration-and-properties)
+    - [Database](#database)
+    - [Data Analysis](#data-analysis)
     - [Dependency Injection](#dependency-injection)
     - [Diff](#diff)
     - [Environment](#environment)
     - [ElasticSearch](#elasticsearch)
+    - [Excel](#excel)
     - [File System](#file-system)
     - [I/O](#io)
     - [Image Based Testing](#image-based-testing)
@@ -34,7 +38,9 @@
     - [Language extensions](#language-extensions)
     - [Logging](#logging)
     - [Localisation](#localisation)
+    - [Mapping](#mapping) 
     - [Mobile](#mobile)
+    - [Monitoring](#monitoring)
     - [Mail](#mail)
     - [Mocks](#mocks)
     - [Mocks for HTTP](#mocks-for-http)
@@ -46,12 +52,12 @@
     - [Serverless](#serverless)
     - [Source Code Utilities](#source-code-utilities)
     - [SSH](#ssh)
-    - [SQL](#sql)
     - [System Information](#system-information)
     - [Telephony](#telephony)
     - [Test Data](#test-data)
     - [Test Reporting](#test-reporting)
     - [Test Runners](#test-runners)
+    - [Text](#text)
     - [Troubleshooting](#troubleshooting)
     - [Unit Testing](#unit-testing)
     - [Utilities](#utilities)
@@ -83,12 +89,17 @@
 ### Architecture
 [&uarr;](#table-of-contents)
 * [ArchUnit](https://github.com/TNG/ArchUnit) - Library that allows to specify and assert architecture rules. 
+* [Deptective](https://github.com/moditect/deptective) - A plug-in for the Java compiler that validates a project's package relationships.
 
 ### Assertions
 [&uarr;](#table-of-contents)
 * [Assertj](https://github.com/joel-costigliola/assertj-core) - Fluent Assertions for Java
 * [Truth](https://github.com/google/truth) - Fluent Assertions from Google
 * [Java Hamcrest](https://github.com/hamcrest/JavaHamcrest) - Popular matchers library.
+
+### API
+[&uarr;](#table-of-contents)
+* [KaiZen OpenAPI Parser](https://github.com/RepreZen/KaiZen-OpenApi-Parser) - Java-based validating parser for OpenAPI 3.0.
 
 ### API Testing
 [&uarr;](#table-of-contents)
@@ -106,6 +117,7 @@
 * [Akita](https://github.com/alfa-laboratory/akita) - BDD steps library built on top of Selenide and Cucumber. Interesting project, but all documentation and even code comments available only in russian.
 * [Сucumber JVM](https://github.com/cucumber/cucumber-jvm) - Executable Specification styled testing Framework.
 * [Cucumber Java Skeleton](https://github.com/cucumber/cucumber-java-skeleton) - Demo project to get acquainted with Cucumber.
+* [Cucable](https://github.com/trivago/cucable-plugin) - Maven plugin that simplifies running Cucumber Scenarios in parallel.
 * [Spock](https://github.com/spockframework/spock) - Another popular executable specification framework. Actually tests have to be written in Groovy but is sure worth mentioning.
 
 ### Bots
@@ -152,6 +164,20 @@
 * [Config](https://github.com/lightbend/config) - A type-safe configuration library for JVM languages.
 * [Owner](https://github.com/lviggiano/owner) - Convenient library for properties handling. Greatly reduces boilerplate.
 
+### Data Analysis
+[&uarr;](#table-of-contents)
+* [Joinery](https://github.com/cardillo/joinery) - Data analysis library. Like Python/Pandas but for Java.
+
+### Database
+[&uarr;](#table-of-contents)
+* [Database Rider](https://github.com/database-rider/database-rider) - Database Testing made easy - unit tests for databases.
+* [jdbi](https://github.com/jdbi/jdbi) - Jdbi provides convenient, idiomatic access to relational databases in Java.
+* [jOOQ](https://github.com/jOOQ/jOOQ) - Advertised as best way to write SQL in Java.
+* [Query DSL](https://github.com/querydsl/querydsl) - Framework that allows to construct type-safe SQL-like queries for multiple backends including JPA, MongoDB and SQL in Java.
+* [Requery](https://github.com/requery/requery) - Modern SQL based query & persistence for Java / Kotlin / Android.
+* [RxJava JDBC](https://github.com/davidmoten/rxjava-jdbc) - Efficient execution and functional composition of database calls using JDBC and RxJava Observables.
+* [SQLDelight](https://github.com/square/sqldelight) - Generates Java models from CREATE TABLE statements.
+
 ### Dependency Injection
 [&uarr;](#table-of-contents)
 * [Dagger 2](https://github.com/google/dagger) - Modern and fast DI framework. Can be pretty [useful](https://medium.com/@fabioCollini/android-testing-using-dagger-2-mockito-and-a-custom-junit-rule-c8487ed01b56) for unit testing.
@@ -168,12 +194,19 @@
 * [Go Grid Router](https://github.com/aerokube/ggr) - Load balancer for Selenium clusters.
 * [Testcontainers Java](https://github.com/testcontainers/testcontainers-java) - Java 8 library providing lightweight, throwaway instances of common databases, Selenium web browsers, or anything else that can run in a Docker container. Good blog [post](https://zeroturnaround.com/rebellabs/java-integration-testing-with-testcontainers/) on topic.
 * [Selenoid](https://github.com/aerokube/selenoid) - Modern library for running browsers within containers, Selenium Hub successor.
+* [Selenoid Images](https://github.com/aerokube/selenoid-images) - Selenoid Docker Images
 * [Selenoid UI](https://github.com/aerokube/selenoid-ui) - Graphical user interface for Selenoid project.
 * [Moon](https://github.com/aerokube/moon) - Paid version of Selenoid to run browsers with [Kubernetes](https://github.com/kubernetes/kubernetes).
+* [Windows Images](https://github.com/aerokube/windows-images) - Instructions and Dockerfile to build Docker images with Windows-only browsers: Internet Explorer and Microsoft Edge.
 
 ### ElasticSearch
 [&uarr;](#table-of-contents)
-* [ElasticSearch REST High Level Client](https://github.com/elastic/elasticsearch/tree/master/client/rest-high-level) - Official Java REST client for managing ElasticSearch instance. Docs are available [here](https://www.elastic.co/guide/en/elasticsearch/client/java-rest/current/java-rest-high.html). ES is extremely useful in certain situations, but is known for steep learning curve. Makes sense to start with [videos](https://egghead.io/courses/get-started-with-elasticsearch).
+* [ElasticSearch REST High Level Client](https://github.com/elastic/elasticsearch/tree/master/client/rest-high-level) - Official Java REST client for managing ElasticSearch instance. Docs are available [here](https://www.elastic.co/guide/en/elasticsearch/client/java-rest/current/java-rest-high.html). ES is extremely useful in certain situations, but is known for steep learning curve. Makes sense to start with [videos](https://egghead.io/courses/get-started-with-elasticsearch). _NB. This particular library brings LOTS of transitive dependencies._
+* [Jest](https://github.com/searchbox-io/Jest) - Unofficial Elasticsearch Java Rest Client.
+
+### Excel
+[&uarr;](#table-of-contents)
+* [Apache POI](https://github.com/apache/poi) - A Java library for working with Microsoft Office binary and OOXML file formats.
 
 ### File System
 [&uarr;](#table-of-contents)
@@ -214,8 +247,9 @@
 [&uarr;](#table-of-contents)
 * [Feign](https://github.com/OpenFeign/feign) - High level REST client - works on top of OkHttp3 or Apache client. Quite similar to Retrofit.
 * [OkHttp3](https://github.com/square/okhttp) - Popular HTTP client by [Square](http://square.github.io/).
-* [LoggingInterceptor](https://github.com/dkorobtsov/LoggingInterceptor) My own version of popular Android [library](https://github.com/ihsanbal/LoggingInterceptor) adapted for use with popular Java loggers - basically OkHttp interceptor, with pretty  requests/responses output to console. Useful when writing API tests or developing REST client.
+* [LogUnit](https://github.com/netmikey/logunit) - Library for unit testing loggers.
 * [Parallec](https://github.com/eBay/parallec) - Lightning fast Parallel Async HTTP/SSH/TCP/UDP/Ping Client Java Library. Allows requesting thousands of remote endpoints, collect results and forward them elsewhere.
+* [Plinter](https://github.com/dkorobtsov/plinter) - HTTP traffic Interceptor adapted for use with popular Java loggers - pretty requests/responses output to console.
 * [Retrofit](https://github.com/square/retrofit) - Type-safe HTTP client for Android and Java by Square. Working with REST API's made easy and simple.
 * [Retrofit Kaiteki](https://github.com/kroegerama/retrofit-kaiteki) - Retrofit convenience classes - adds Caching, Retries etc.
 * [RetroAuth](https://github.com/andretietz/retroauth) - A library build on top of retrofit to simplify handling of authenticated requests.
@@ -233,6 +267,7 @@
 
 ### Logging
 [&uarr;](#table-of-contents)
+* [Gradle Test Logger Plugin](https://github.com/radarsh/gradle-test-logger-plugin) - A Gradle plugin for printing beautiful logs on the console while running tests. Works pretty well with unit tests.
 * [Log4j2](https://github.com/apache/logging-log4j2) - One of the most popular Java logging frameworks. Endless customization options, though could be a little bit complicated to perform initial configuration.
 * [Logback](https://github.com/qos-ch/logback) - Another popular logging framework.
 * [Slf4j](https://github.com/qos-ch/slf4j) - Simple Logging Facade for Java
@@ -243,18 +278,29 @@
 * [Language Detector](https://github.com/optimaize/language-detector) - Library taking text as an input and returning language it was written in. Should admit returns quite a lot of false positives for short strings, but still - extremely useful for fast localization checks.
 * [Languagetool](https://github.com/languagetool-org/languagetool) - Style and Grammar Checker supporting 25+ Languages. Check official [docs](https://languagetool.org/dev) for usage details.
 
+### Mapping
+[&uarr;](#table-of-contents)
+* [ModelMapper](https://github.com/modelmapper/modelmapper) - Object mapping library that automatically maps objects to each other. 
+
 ### Mobile
 [&uarr;](#table-of-contents)
 * [Appium](https://github.com/appium/appium) - Most popular tool for mobile devices UI automation. Note that out of the box it rarely does something useful. Heavy customization is needed for particular use case. Works really well when paired with [Selenide](#selenide).
 * [Appium Espresso Driver](https://github.com/appium/appium-espresso-driver) - Not yet ready for production. Looks promising, so let it be in watch list.
 * [Appium Test Distribution](https://github.com/saikrishna321/AppiumTestDistribution) - Ready solution for tests distribution on multiple mobile devices. Based on Appium and TestNG. This is what I meant saying that out of the box Appium is pretty useless. You'll have to write your own bicycle or use this one (at least as an example).
 * [Android JUnit5 plugin](https://github.com/mannodermaus/android-junit5) - Library providing JUnit5 support for Android projects.
+* [Android Test](https://github.com/android/android-test) - New AndroidX Test Library for testing Android applications.
+* [Android Testing Samples](https://github.com/googlesamples/android-testing) - A collection of samples demonstrating different frameworks and techniques for automated Android applications testing.
 * [Barista](https://github.com/SchibstedSpain/Barista) - Convenient wrapper library build on top of Espresso.
 * [Espresso](https://developer.android.com/training/testing/espresso/) - Google own testing framework for Android UI testing. Question is open which one is better option. In general, if you want flexibility - use Appium, if speed is a priority - go with Espresso.
 * [Espresso Samples](https://github.com/chiuki/espresso-samples) - Demo Project displaying various techniques for using Espresso library.
+* [Fork](https://github.com/shazam/fork) - A library to speed up Android instrumentation tests execution.
 * [JADB](https://github.com/vidstige/jadb) - ADB client in Java.
 * [Leak Canary](https://github.com/square/leakcanary) - A memory leak detection library for Android and Java. Extremely useful for finding leaks.
 * [Spoon](https://github.com/square/spoon) - Tool for distributing Android instrumentation tests across multiple devices.
+
+### Monitoring
+[&uarr;](#table-of-contents)
+* [Micrometer Application Metrics](https://github.com/micrometer-metrics/micrometer) - An application metrics facade for the most popular monitoring tools. Like SLF4J, but for metrics. 
 
 ### Mail
 [&uarr;](#table-of-contents)
@@ -289,6 +335,7 @@
 
 ### PDF
 [&uarr;](#table-of-contents)
+* [Apache Tika](https://github.com/apache/tika) - Toolkit for detecting and extracting metadata and structured text content from various documents (such as PPT, XLS, and PDF).
 * [PDF Test](https://github.com/codeborne/pdf-test) - Library for testing PDF files.
 
 ### Profiling
@@ -300,6 +347,7 @@
 
 ### Reflection
 [&uarr;](#table-of-contents)
+* [jOOR](https://github.com/jOOQ/jOOR) - Fluent Reflection in Java.  It is a simple wrapper for the java.lang.reflect package.
 * [Reflections](https://github.com/ronmamo/reflections) - Java runtime metadata analysis.
 
 ### Reactive
@@ -323,15 +371,6 @@
 ### SSH
 [&uarr;](#table-of-contents)
 * [JSch](https://github.com/is/jsch) - Java SSH interface. Allows to manage remote *nix servers programmatically.
-
-### SQL
-[&uarr;](#table-of-contents)
-* [jdbi](https://github.com/jdbi/jdbi) - Jdbi provides convenient, idiomatic access to relational databases in Java.
-* [jOOQ](https://github.com/jOOQ/jOOQ) - Advertised as best way to write SQL in Java.
-* [Query DSL](https://github.com/querydsl/querydsl) - Framework that allows to construct type-safe SQL-like queries for multiple backends including JPA, MongoDB and SQL in Java.
-* [Requery](https://github.com/requery/requery) - Modern SQL based query & persistence for Java / Kotlin / Android.
-* [RxJava JDBC](https://github.com/davidmoten/rxjava-jdbc) - Efficient execution and functional composition of database calls using JDBC and RxJava Observables.
-* [SQLDelight](https://github.com/square/sqldelight) - Generates Java models from CREATE TABLE statements.
 
 ### System Information
 [&uarr;](#table-of-contents)
@@ -363,8 +402,15 @@
 * [JUnit4](https://github.com/junit-team/junit4) - Good old JUnit. In general there is no big difference at the moment which one to choose - JUnit4, JUnit or TestNG. Mostly it's a matter of taste.
 * [JUnitParams](https://github.com/Pragmatists/JUnitParams) - JUnit4 extension for creating parameterised tests.
 * [JUnit5](https://github.com/junit-team/junit5) - Next generation of JUnit with some interesting features.
+* [JUnit5 Samples](https://github.com/junit-team/junit5-samples) - Collection of sample applications and extensions using JUnit.
 * [Mastering JUnit5](https://github.com/bonigarcia/mastering-junit5) - Collection of code examples displaying how to use new JUnit5 features.
 * [Test Data Supplier](https://github.com/sskorol/test-data-supplier) - Extended version of TestNG DataProvider.
+
+### Text
+[&uarr;](#table-of-contents)
+* [Apache Tika](https://github.com/apache/tika) - Toolkit for detecting and extracting metadata and structured text content from various documents (such as PPT, XLS, and PDF).
+* [JUnidecode](https://github.com/gcardone/junidecode) - Pretty useful library for handling text in exotic locales.
+* [Apache Commons Text](https://github.com/apache/commons-text) - Collection of utils for working with strings. May be a little bit unexpected library in this list, but in almost every project I've seen there is own string utilities collection doing mostly same things.
 
 ### Troubleshooting
 [&uarr;](#table-of-contents)
@@ -372,16 +418,17 @@
 
 ### Unit Testing
 [&uarr;](#table-of-contents)
-* [Fake Time](https://github.com/faketime-java/faketime) - Library for faking time in unit tests.
+
 * [EqualsVerifier](https://github.com/jqno/equalsverifier) - EqualsVerifier can be used in Java unit tests to verify whether the contract for the equals and hashCode methods is met.
 * [EvoSuite](https://github.com/EvoSuite/evosuite) - EvoSuite - automated generation of JUnit test suites for Java classes. Allows to quickly increase code coverage.
 * [Open Pojo](https://github.com/OpenPojo/openpojo) - Library for bulk POJOs structure validation. Getters, setters etc.
 
 ### Utilities
 [&uarr;](#table-of-contents)
-* [Apache Commons Text](https://github.com/apache/commons-text) - Collection of utils for working with strings. May be a little bit unexpected library in this list, but in almost every project I've seen there is own string utilities collection doing mostly same things.
+* [Fake Time](https://github.com/faketime-java/faketime) - Library for faking time in unit tests.
+* [FailSafe](https://github.com/jhalterman/failsafe) - Flexible library for handling failures in Java 8+.
 * [Java Utils](https://github.com/jdereg/java-util) - Collection of utility methods to work with URLs, execute System commands, compare graphs etc.
-* [JUnidecode](https://github.com/gcardone/junidecode) - Pretty useful library for handling text in exotic locales.
+* [Shadow](https://github.com/johnrengelman/shadow) - Gradle plugin to create fat JARs, apply file transforms, and relocate packages for applications and libraries. 
 * [ZT Process Executor](https://github.com/zeroturnaround/zt-exec) - Convenient library for processes execution.
 
 ### XML
@@ -398,6 +445,7 @@
 * [Browsermob Proxy](https://github.com/lightbody/browsermob-proxy) - Utility to help web developers watch and manipulate network traffic from their AJAX applications. NB: In scope of UI tests since version [4.11](http://selenide.org/2018/04/02/selenide-4.11/) it's possible to use Selenide own proxy which is using Browsermob under the hood.
 * [Video Recorder Java](https://github.com/SergeyPirogov/video-recorder-java) - Library for UI test execution process video recording. Just add some annotations, simple as that.
 * [WebDriver Manager](https://github.com/bonigarcia/webdrivermanager) - Automatic management of Selenium WebDriver binaries. NB: If you are using Selenide - don't bother looking at this library, it's already included under the hood.
+* [WDM4J](https://github.com/rosolko/wdm4j) - Another WebDriver manager for Java.
 
 ### WebSockets
 [&uarr;](#table-of-contents)
