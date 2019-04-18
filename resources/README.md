@@ -70,7 +70,6 @@
 [&uarr;](#table-of-contents)
 * [Clean Code](https://www.goodreads.com/book/show/3735293-clean-code) by Uncle Bob. Must read. Period. Badly written code is a total mess. At certain point maintenance will consume all the time you have.
 * [xUnit Test Patterns: Refactoring Test Code](https://www.goodreads.com/book/show/337302.xUnit_Test_Patterns) by Gerard Meszaros. Bible of unit testing. Same principles are applicable to any automated tests. Another must read.
-* [Books Collection](https://github.com/iMarcoGovea/books) - Collection of Books about Nodejs, Angular2, Agile, Clean Code, Docker, Golang, Microservices, REST, TDD, BDD, and Startups.
 
 ### Useful Read
 [&uarr;](#table-of-contents)
