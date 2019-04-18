@@ -388,14 +388,13 @@
 * [Fabricator](https://github.com/azakordonets/fabricator) - Fake data generator.
 * [Fixture Factory](https://github.com/six2six/fixture-factory) - Library helping to build and organize fake objects for unit tests.
 * [Java Faker](https://github.com/DiUS/java-faker) - Another useful library for fake Test Data generation.
-* [SecLists](https://github.com/danielmiessler/SecLists) - Security tester's companion. It's a collection of multiple types of lists used during security assessments, collected in one place. Check big list of naughty strings!
 * [Randomized Testing](https://github.com/randomizedtesting/randomizedtesting) - Library for injecting reproducible random data to unit tests. Heavily used by [Elastic](https://www.elastic.co/guide/en/elasticsearch/reference/current/randomized-testing.html) for ElasticSearch testing.
 
 ### Test Reporting
 [&uarr;](#table-of-contents)
 * [Allure Java](https://github.com/allure-framework/allure-java) - Collection of small libraries (most of them contains just a single class) to integrate Allure Reports with popular Java frameworks.
 * [Scott Test Reporter](https://github.com/dodie/scott) - Scott provides detailed failure messages for tests written in Java.
-* [See more in Tools section >>]((https://github.com/dkorobtsov/automation-arsenal/tree/master/tools#test-reporting))
+* [See more in Tools section >>](https://github.com/dkorobtsov/automation-arsenal/tree/master/tools#test-reporting)
 
 ### Test Runners
 [&uarr;](#table-of-contents)

@@ -43,6 +43,7 @@
 * [Performance Testing](https://www.stevefenton.co.uk/cmsfiles/assets/file/Performance-Testing-Cheat-Sheet.pdf) - Performance Testing cheat sheet.
 * [Regex](http://files.zeroturnaround.com/pdf/zt_regular-expressions-cheat-sheet.pdf) - Regular expressions cheat sheet.
 * [RxJava](http://files.zeroturnaround.com/pdf/zt-rxjava-cheat-sheet.pdf) - RxJava cheat sheet.
+* [SecLists](https://github.com/danielmiessler/SecLists) - Security tester's companion. It's a collection of multiple types of lists used during security assessments, collected in one place. Check big list of naughty strings!
 * [Software Testing](https://openconcept.ca/sites/openconcept/files/software_testing_cheat_sheet.pdf) - Software Testing cheat sheet. Just another pyramid representation with layers explained.
 * [System Design Primer](https://github.com/donnemartin/system-design-primer) - Large-scale system design examples.
 * [SQL](http://files.zeroturnaround.com/pdf/zt_sql_cheat_sheet.pdf) - SQL cheat Sheet.
