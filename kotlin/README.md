@@ -56,7 +56,7 @@
 
 ### Configuration and Properties
 [&uarr;](#table-of-contents)
-* [Properlty](https://github.com/ufoscout/properlty) - Simple Kotlin and Java configuration library. Looks really convenient.
+* [Config4K](https://github.com/config4k/config4k) - Lightweight [Typesafe Config](https://github.com/lightbend/config) wrapper for Kotlin.
 
 ### CLI
 [&uarr;](#table-of-contents)
@@ -114,6 +114,7 @@
 [&uarr;](#table-of-contents)
 * [OkLog](https://github.com/simonpercic/OkLog) - Yet another OkHttp traffic logging interceptor. Intercepts requests and generates link to view response details in browser. Looks awesome if you don't mind leaving IDE.
 * [Kotlin Logging](https://github.com/MicroUtils/kotlin-logging) - Small Kotlin logging library. Using slf4j under the hood.
+* [Log4j2 Kotlin API](https://logging.apache.org/log4j/kotlin/) - Kotlin logging facade based on Log4j2. Power of Log4j2 adapted for Kotlin projects.
 
 ### Reactive
 [&uarr;](#table-of-contents)
