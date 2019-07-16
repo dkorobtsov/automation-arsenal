@@ -221,7 +221,7 @@
 * [SikuliX2](https://github.com/RaiMan/SikuliX2) - Massive redesign of popular SikuliX library. Promised to be released in October. So, let it be here, say "in watch list". One of the announced 'killer features' is an option to perform screenshot based testing of mobile apps.
 * [Ashot](https://github.com/yandex-qatools/ashot) - Useful library from Yandex for operating screenshots. Screenshot based testing etc.
 * [Screenshot Tests For Android](https://github.com/facebook/screenshot-tests-for-android) - Popular screenshot based mobile devices testing solution from Facebook.
-
+* [Image-comparison](https://github.com/romankh3/image-comparison) - Library that compares 2 images with the same sizes and shows the differences visually by drawing rectangles. Some parts of the image can be excluded from the comparison.
 ### Image Recognition
 [&uarr;](#table-of-contents)
 * [Tess4J](https://github.com/nguyenq/tess4j) - Optical character recognition library supporting most popular image formats and PDFs documents. 
