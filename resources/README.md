@@ -85,7 +85,6 @@
 ## Events
 [&uarr;](#table-of-contents)
 * [Software Testing Conferences](https://testingconferences.org/) - Live calendar for incoming Software testing conferences.
-* [IT Conference Top](https://itconference.top/) - Best Developer Conferences to attend in Europe.
 
 ## Video
 [&uarr;](#table-of-contents)
